@@ -3,7 +3,7 @@
 ```
 git clone git@github.com:gamcil/cblaster_viz.git
 cd cblaster_viz/
-python3 -m http.server .
+python3 -m http.server
 ```
 
 ### TODOs
