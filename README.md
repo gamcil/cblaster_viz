@@ -6,6 +6,8 @@ cd cblaster_viz/
 python3 -m http.server
 ```
 
+Change dataURL at bottom of `scripts.js` to use difference data
+
 ### TODOs
 * filtering by taxonomy
 * sorting by score/length
