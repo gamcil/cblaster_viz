@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>cblaster results</title>
+        <link href="./style.css" rel="stylesheet"/>
+        <script src="./scripts.js" defer></script>
+    </head>
+<body>
+    <h1>cblaster results</h1>
+    <div id="grid-container">
+        <div id="grid-header-row">
+            <div class="grid-cell organism-name">Organism</div>
+            <div class="grid-cell organism-strain">Strain</div>
+            <div class="grid-cell scaffold-name">Scaffold</div>
+            <div class="grid-cell scaffold-start">Start</div>
+            <div class="grid-cell scaffold-end">End</div>
+            <div class="grid-cell cluster-length">Length</div>
+            <div class="grid-cell cluster-score">Score</div>
+            <div class="pattern"></div>
+        </div>
+        <!-- table data goes here-->
+    </div>
+</body>
+</html>
+
+<template id="cluster-template">
+    <div class="cluster-row">
+        <button class="toggle">▼</button>
+        <div class="grid-cell organism-name">Organism name</div>
+        <div class="grid-cell organism-strain">Organism strain</div>
+        <div class="grid-cell scaffold-name">Scaffold name</div>
+        <div class="grid-cell scaffold-start">Scaffold start</div>
+        <div class="grid-cell scaffold-end">Scaffold end</div>
+        <div class="grid-cell cluster-length">Cluster length</div>
+        <div class="grid-cell cluster-score">Cluster score</div>
+        <div class="pattern"></div>
+    </div>
+</template>
+
+<template id="member-template">
+    <div class="member-row">
+        <div class="grid-cell organism-name">Organism name</div>
+        <div class="grid-cell organism-strain">Organism strain</div>
+        <div class="grid-cell scaffold-name">Scaffold name</div>
+        <div class="grid-cell scaffold-start">Scaffold start</div>
+        <div class="grid-cell scaffold-end">Scaffold end</div>
+        <div class="grid-cell cluster-length">Cluster length</div>
+        <div class="grid-cell cluster-score">Cluster score</div>
+        <div class="pattern"></div>
+    </div>
+</template>

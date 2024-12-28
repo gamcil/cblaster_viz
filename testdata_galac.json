@@ -1,0 +1,6992 @@
+{
+  "counts": {
+    "queries": 8,
+    "hits": 362,
+    "subjects": 362,
+    "clusters": 68,
+    "scaffolds": 68,
+    "organisms": 51
+  },
+  "params": {
+    "database": [
+      "nr"
+    ],
+    "max_evalue": 0.01,
+    "min_coverage": 50,
+    "min_identity": 30,
+    "mode": "remote",
+    "query_file": "/Users/galacmr/OneDrive - National Institutes of Health/2021-08_Dickey_AMP_peptide/cblaster_2022-1/Staph_cassette_ig_search_2022-12-19/BGC_gene_proteins_3.fasta",
+    "require": [
+      "Biosynthetic_Gene_Cassette_-_Putative_AMP_translation"
+    ],
+    "rid": "U15VSX43016"
+  },
+  "query": {
+    "queries": [
+      {
+        "id": 0,
+        "name": "Biosynthetic_Gene_Cassette_-_Putative_AMP_translation",
+        "start": 0,
+        "end": 294,
+        "strand": 1,
+        "sequence": "MMEKANHYMIYMYTFIKILVENTMEKFSQAKNELILGIKNKDLQFNAWFVVLLAAILVFATAIFAGLTIWCVVNQHGKFTGNWNWHIKGVSLDVECKR"
+      },
+      {
+        "id": 1,
+        "name": "Biosynthetic_Gene_Cassette_-_Putative_sensor_4_TMD_protein_translation",
+        "start": 794,
+        "end": 1256,
+        "strand": 1,
+        "sequence": "MKKVIFEQTGNIISVLLLIASSIEFISTFKVDNYNFEIYFGIFTFALIAWIPCFIIARLIYSKFDKNYNIKKGEYSATDEREVIIYYKSSLGAYKAIVFSLLIFFVAITLLAAFSNSMSFNNIHLGIISMLFFGFSIIVGLLTYLLIWIFLYLK"
+      },
+      {
+        "id": 2,
+        "name": "Biosynthetic_Gene_Cassette_-_HTH_transcriptional_regulator_translation",
+        "start": 1756,
+        "end": 1951,
+        "strand": 1,
+        "sequence": "MIKNNVSQYRKKAGLTQLQLSNIVGVTRRTIISLEKGGYTPSLLLALNIAKALDTDINKIFSLED"
+      },
+      {
+        "id": 3,
+        "name": "Biosynthetic_Gene_Cassette_-_ABC_transporter_ATP_binding_translation",
+        "start": 2451,
+        "end": 3156,
+        "strand": 1,
+        "sequence": "MLKIENVSFKYTGTKHEVLKKINCTFTYGDFVALIGPNGSGKTTLIKLIANTLNLEKGVITLGGISNKKAYFKNKILYLPSDDLLPGFMSGYEYIELMHKLYNKKLQKTTLYDLAEKLSIKGALELLIDDYSTGMKKKLQVILSVLIAPNILIIDETLNGMDIESVEITKKIYRQISNNQTIIIMCSHDLNLLEDLCNKCLILYSGKVYLYRHIEELNGDLTTTFKKIINREKEV"
+      },
+      {
+        "id": 4,
+        "name": "Biosynthetic_Gene_Cassette_-_ABC_transporter_permease_translation",
+        "start": 3656,
+        "end": 5099,
+        "strand": 1,
+        "sequence": "MSIKSIIELNKIYKLYLTRRLLNLGLLKSKLVRIVLISIFIALLSIFSISGYLFINQVANDEQAVLLLIKAFITSSVMWTITVVLALKVIFSKSQDFFKIMENFPINNKVKNLSIFIFESLCSLAVVFCMCFSFIIAIILSSPTNYLGYLVVNIFYVSAITYLLLQLISKIISISCVILKIEKLYSLINISALVLVFIIAYKQTEPLVKSLINDYLNNKNSTKSVFLLFNEIYQHSGLLLTTLIFLILFSGLSLIMFILPDNSYYDQSKYINVFKSIKRINVFKTYLLSIVRDKNVLSNIIGTYIFAILLLSINLDKYILFALLLVVFNSIYCFVQTLRIRLISYSINYSVIKDYILMVFSQLAVTYITSIPLLIISICLNGANSSILTPYYVITVGTFILVMAGILFPPYNDNPFSILVSLIIISVPLLFILLIIILFNLGLKIIFGIFIAMFIFVICFSILALKNTEKRSRNETLNIFN"
+      },
+      {
+        "id": 5,
+        "name": "Biosynthetic_Gene_Cassette_-_dsbA_family_translation",
+        "start": 5599,
+        "end": 6250,
+        "strand": 1,
+        "sequence": "MKKISIFLILFIFCTILVVLFRHNSEKEDEKEIFFSKNLEEKYTLHSPKLGNSSKNKIIVFEDFKCPHCRTLYNNIIKKIDDGIEVRYVNIAFLGKDSFVASKASHAVYIYAPEKFPAFHDAMMNQHTNNNQRLQFTEKIIDYEIDKLSLDKYKIDKIKSTYKSKNSIASKYANKDIKAGEAMKVSSVPTIYVNGHYIKNKSSNLKEFKKNISPYIK"
+      },
+      {
+        "id": 6,
+        "name": "Biosynthetic_Gene_Cassette_-_Putative_Immunity_Protein_translation",
+        "start": 6750,
+        "end": 7035,
+        "strand": 1,
+        "sequence": "MKHLIYLINSLVFSIVTTGIILTVSFLIMLFSSKDIGYKTTYFGSLFFNSIEKGNDTLGLHIGIANWGPIVLTIIILMLFYYIITIFLKKHTHSK"
+      },
+      {
+        "id": 7,
+        "name": "Biosynthetic_Gene_Cassette_-_putative_protease_translation",
+        "start": 7535,
+        "end": 8054,
+        "strand": 1,
+        "sequence": "MTYYSKIKDVTFLKILFWMIRSYAIIITLICSLIMLPYVLTLKQSILMICLSIQIIFLFGLLLSFAIHEYMHIYFLKKKHANNKVKIMFGWNKMTVSPIISNVSGRTIIRVAISPLLILFAIGLFLSLIYSVTNILLLKILSYIYCFHIVNILPPLGDGVMLIKGILKSIERR"
+      }
+    ]
+  },
+  "hits": [
+    {
+      "id": 0,
+      "name": "PCF64396.1",
+      "identity": 78.462,
+      "coverage": 100.0,
+      "bitscore": 108.0,
+      "evalue": 5.22e-29,
+      "strand": 1,
+      "start": 2400,
+      "end": 2598,
+      "ipg": "161288523",
+      "cluster_id": 0
+    },
+    {
+      "id": 1,
+      "name": "PCF64397.1",
+      "identity": 56.494,
+      "coverage": 100.0,
+      "bitscore": 180.0,
+      "evalue": 4.89e-55,
+      "strand": 1,
+      "start": 2601,
+      "end": 3066,
+      "ipg": "161288557",
+      "cluster_id": 0
+    },
+    {
+      "id": 2,
+      "name": "PCF64398.1",
+      "identity": 64.286,
+      "coverage": 100.0,
+      "bitscore": 139.0,
+      "evalue": 1.42e-40,
+      "strand": -1,
+      "start": 3109,
+      "end": 3406,
+      "ipg": "161288576",
+      "cluster_id": 0
+    },
+    {
+      "id": 3,
+      "name": "PCF64399.1",
+      "identity": 57.803,
+      "coverage": 100.0,
+      "bitscore": 203.0,
+      "evalue": 2.58e-63,
+      "strand": -1,
+      "start": 3408,
+      "end": 3930,
+      "ipg": "161288524",
+      "cluster_id": 0
+    },
+    {
+      "id": 4,
+      "name": "PCF64400.1",
+      "identity": 55.435,
+      "coverage": 95.7894736842105,
+      "bitscore": 99.0,
+      "evalue": 1.4e-24,
+      "strand": -1,
+      "start": 3926,
+      "end": 4214,
+      "ipg": "161288525",
+      "cluster_id": 0
+    },
+    {
+      "id": 5,
+      "name": "PCF64401.1",
+      "identity": 63.202,
+      "coverage": 100.0,
+      "bitscore": 580.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 4188,
+      "end": 5634,
+      "ipg": "161288550",
+      "cluster_id": 0
+    },
+    {
+      "id": 6,
+      "name": "PCF64402.1",
+      "identity": 70.259,
+      "coverage": 98.7234042553192,
+      "bitscore": 328.0,
+      "evalue": 7.83e-111,
+      "strand": -1,
+      "start": 5611,
+      "end": 6340,
+      "ipg": "161288567",
+      "cluster_id": 0
+    },
+    {
+      "id": 7,
+      "name": "PCF64403.1",
+      "identity": 52.055,
+      "coverage": 99.5391705069124,
+      "bitscore": 209.0,
+      "evalue": 2.77e-64,
+      "strand": 1,
+      "start": 6992,
+      "end": 7670,
+      "ipg": "161288515",
+      "cluster_id": 0
+    },
+    {
+      "id": 8,
+      "name": "WP_096549015.1",
+      "identity": 78.462,
+      "coverage": 100.0,
+      "bitscore": 108.0,
+      "evalue": 5.22e-29,
+      "strand": 1,
+      "start": 2400,
+      "end": 2598,
+      "ipg": "161288523",
+      "cluster_id": 1
+    },
+    {
+      "id": 9,
+      "name": "WP_096549016.1",
+      "identity": 56.494,
+      "coverage": 100.0,
+      "bitscore": 180.0,
+      "evalue": 4.89e-55,
+      "strand": 1,
+      "start": 2601,
+      "end": 3066,
+      "ipg": "161288557",
+      "cluster_id": 1
+    },
+    {
+      "id": 10,
+      "name": "WP_133158345.1",
+      "identity": 63.918,
+      "coverage": 98.9795918367347,
+      "bitscore": 137.0,
+      "evalue": 1.04e-39,
+      "strand": -1,
+      "start": 3109,
+      "end": 3403,
+      "ipg": "239446333",
+      "cluster_id": 1
+    },
+    {
+      "id": 11,
+      "name": "WP_096549019.1",
+      "identity": 55.435,
+      "coverage": 95.7894736842105,
+      "bitscore": 99.0,
+      "evalue": 1.4e-24,
+      "strand": -1,
+      "start": 3926,
+      "end": 4214,
+      "ipg": "161288525",
+      "cluster_id": 1
+    },
+    {
+      "id": 12,
+      "name": "WP_096549020.1",
+      "identity": 63.202,
+      "coverage": 100.0,
+      "bitscore": 580.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 4188,
+      "end": 5634,
+      "ipg": "161288550",
+      "cluster_id": 1
+    },
+    {
+      "id": 13,
+      "name": "WP_096549021.1",
+      "identity": 70.259,
+      "coverage": 98.7234042553192,
+      "bitscore": 328.0,
+      "evalue": 7.83e-111,
+      "strand": -1,
+      "start": 5611,
+      "end": 6340,
+      "ipg": "161288567",
+      "cluster_id": 1
+    },
+    {
+      "id": 14,
+      "name": "WP_096549023.1",
+      "identity": 52.055,
+      "coverage": 99.5391705069124,
+      "bitscore": 209.0,
+      "evalue": 2.77e-64,
+      "strand": 1,
+      "start": 6992,
+      "end": 7670,
+      "ipg": "161288515",
+      "cluster_id": 1
+    },
+    {
+      "id": 15,
+      "name": "WP_019167409.1",
+      "identity": 78.462,
+      "coverage": 100.0,
+      "bitscore": 105.0,
+      "evalue": 4.25e-28,
+      "strand": 1,
+      "start": 3501,
+      "end": 3699,
+      "ipg": "39780130",
+      "cluster_id": 2
+    },
+    {
+      "id": 16,
+      "name": "WP_019167410.1",
+      "identity": 69.481,
+      "coverage": 100.0,
+      "bitscore": 204.0,
+      "evalue": 1.52e-64,
+      "strand": 1,
+      "start": 3702,
+      "end": 4167,
+      "ipg": "39780131",
+      "cluster_id": 2
+    },
+    {
+      "id": 17,
+      "name": "WP_019167411.1",
+      "identity": 64.948,
+      "coverage": 98.9795918367347,
+      "bitscore": 138.0,
+      "evalue": 3.47e-40,
+      "strand": -1,
+      "start": 4209,
+      "end": 4503,
+      "ipg": "39780132",
+      "cluster_id": 2
+    },
+    {
+      "id": 18,
+      "name": "WP_019167413.1",
+      "identity": 60.44,
+      "coverage": 94.7368421052632,
+      "bitscore": 108.0,
+      "evalue": 1.71e-28,
+      "strand": -1,
+      "start": 5013,
+      "end": 5313,
+      "ipg": "39780134",
+      "cluster_id": 2
+    },
+    {
+      "id": 19,
+      "name": "WP_019167414.1",
+      "identity": 66.944,
+      "coverage": 100.0,
+      "bitscore": 577.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 5287,
+      "end": 6733,
+      "ipg": "39780135",
+      "cluster_id": 2
+    },
+    {
+      "id": 20,
+      "name": "WP_019167415.1",
+      "identity": 73.799,
+      "coverage": 97.4468085106383,
+      "bitscore": 347.0,
+      "evalue": 2.77e-118,
+      "strand": -1,
+      "start": 6736,
+      "end": 7426,
+      "ipg": "39780136",
+      "cluster_id": 2
+    },
+    {
+      "id": 21,
+      "name": "WP_019167416.1",
+      "identity": 60.185,
+      "coverage": 99.5391705069124,
+      "bitscore": 247.0,
+      "evalue": 1.85e-79,
+      "strand": 1,
+      "start": 7556,
+      "end": 8213,
+      "ipg": "39780137",
+      "cluster_id": 2
+    },
+    {
+      "id": 22,
+      "name": "WP_180991063.1",
+      "identity": 65.889,
+      "coverage": 71.3097713097713,
+      "bitscore": 399.0,
+      "evalue": 3.15e-133,
+      "strand": 1,
+      "start": 0,
+      "end": 1051,
+      "ipg": "176933923",
+      "cluster_id": 3
+    },
+    {
+      "id": 23,
+      "name": "WP_019167413.1",
+      "identity": 60.44,
+      "coverage": 94.7368421052632,
+      "bitscore": 108.0,
+      "evalue": 1.71e-28,
+      "strand": 1,
+      "start": 1025,
+      "end": 1325,
+      "ipg": "39780134",
+      "cluster_id": 3
+    },
+    {
+      "id": 24,
+      "name": "WP_162137360.1",
+      "identity": 61.194,
+      "coverage": 77.4566473988439,
+      "bitscore": 176.0,
+      "evalue": 3.24e-53,
+      "strand": 1,
+      "start": 1422,
+      "end": 1830,
+      "ipg": "296660574",
+      "cluster_id": 3
+    },
+    {
+      "id": 25,
+      "name": "WP_019167411.1",
+      "identity": 64.948,
+      "coverage": 98.9795918367347,
+      "bitscore": 138.0,
+      "evalue": 3.47e-40,
+      "strand": 1,
+      "start": 1835,
+      "end": 2129,
+      "ipg": "39780132",
+      "cluster_id": 3
+    },
+    {
+      "id": 26,
+      "name": "WP_019167410.1",
+      "identity": 69.481,
+      "coverage": 100.0,
+      "bitscore": 204.0,
+      "evalue": 1.52e-64,
+      "strand": -1,
+      "start": 2171,
+      "end": 2636,
+      "ipg": "39780131",
+      "cluster_id": 3
+    },
+    {
+      "id": 27,
+      "name": "WP_019167409.1",
+      "identity": 78.462,
+      "coverage": 100.0,
+      "bitscore": 105.0,
+      "evalue": 4.25e-28,
+      "strand": -1,
+      "start": 2639,
+      "end": 2837,
+      "ipg": "39780130",
+      "cluster_id": 3
+    },
+    {
+      "id": 28,
+      "name": "WP_019167416.1",
+      "identity": 60.185,
+      "coverage": 99.5391705069124,
+      "bitscore": 247.0,
+      "evalue": 1.85e-79,
+      "strand": -1,
+      "start": 83029,
+      "end": 83686,
+      "ipg": "39780137",
+      "cluster_id": 4
+    },
+    {
+      "id": 29,
+      "name": "WP_019167415.1",
+      "identity": 73.799,
+      "coverage": 97.4468085106383,
+      "bitscore": 347.0,
+      "evalue": 2.77e-118,
+      "strand": 1,
+      "start": 83816,
+      "end": 84506,
+      "ipg": "39780136",
+      "cluster_id": 4
+    },
+    {
+      "id": 30,
+      "name": "WP_019167414.1",
+      "identity": 66.944,
+      "coverage": 100.0,
+      "bitscore": 577.0,
+      "evalue": 0.0,
+      "strand": 1,
+      "start": 84509,
+      "end": 85955,
+      "ipg": "39780135",
+      "cluster_id": 4
+    },
+    {
+      "id": 31,
+      "name": "WP_019167413.1",
+      "identity": 60.44,
+      "coverage": 94.7368421052632,
+      "bitscore": 108.0,
+      "evalue": 1.71e-28,
+      "strand": 1,
+      "start": 85929,
+      "end": 86229,
+      "ipg": "39780134",
+      "cluster_id": 4
+    },
+    {
+      "id": 32,
+      "name": "WP_019167411.1",
+      "identity": 64.948,
+      "coverage": 98.9795918367347,
+      "bitscore": 138.0,
+      "evalue": 3.47e-40,
+      "strand": 1,
+      "start": 86739,
+      "end": 87033,
+      "ipg": "39780132",
+      "cluster_id": 4
+    },
+    {
+      "id": 33,
+      "name": "WP_019167410.1",
+      "identity": 69.481,
+      "coverage": 100.0,
+      "bitscore": 204.0,
+      "evalue": 1.52e-64,
+      "strand": -1,
+      "start": 87075,
+      "end": 87540,
+      "ipg": "39780131",
+      "cluster_id": 4
+    },
+    {
+      "id": 34,
+      "name": "WP_019167409.1",
+      "identity": 78.462,
+      "coverage": 100.0,
+      "bitscore": 105.0,
+      "evalue": 4.25e-28,
+      "strand": -1,
+      "start": 87543,
+      "end": 87741,
+      "ipg": "39780130",
+      "cluster_id": 4
+    },
+    {
+      "id": 35,
+      "name": "SUM43715.1",
+      "identity": 60.185,
+      "coverage": 99.5391705069124,
+      "bitscore": 247.0,
+      "evalue": 1.85e-79,
+      "strand": -1,
+      "start": 83029,
+      "end": 83686,
+      "ipg": "39780137",
+      "cluster_id": 5
+    },
+    {
+      "id": 36,
+      "name": "SUM43718.1",
+      "identity": 76.119,
+      "coverage": 85.531914893617,
+      "bitscore": 308.0,
+      "evalue": 2.29e-103,
+      "strand": 1,
+      "start": 83900,
+      "end": 84506,
+      "ipg": "198525137",
+      "cluster_id": 5
+    },
+    {
+      "id": 37,
+      "name": "SUM43720.1",
+      "identity": 66.944,
+      "coverage": 100.0,
+      "bitscore": 577.0,
+      "evalue": 0.0,
+      "strand": 1,
+      "start": 84509,
+      "end": 85955,
+      "ipg": "39780135",
+      "cluster_id": 5
+    },
+    {
+      "id": 38,
+      "name": "SUM43723.1",
+      "identity": 60.44,
+      "coverage": 94.7368421052632,
+      "bitscore": 108.0,
+      "evalue": 1.71e-28,
+      "strand": 1,
+      "start": 85929,
+      "end": 86229,
+      "ipg": "39780134",
+      "cluster_id": 5
+    },
+    {
+      "id": 39,
+      "name": "SUM43726.1",
+      "identity": 60.116,
+      "coverage": 100.0,
+      "bitscore": 220.0,
+      "evalue": 2.87e-70,
+      "strand": 1,
+      "start": 86212,
+      "end": 86734,
+      "ipg": "39780133",
+      "cluster_id": 5
+    },
+    {
+      "id": 40,
+      "name": "SUM43729.1",
+      "identity": 64.948,
+      "coverage": 98.9795918367347,
+      "bitscore": 138.0,
+      "evalue": 3.47e-40,
+      "strand": 1,
+      "start": 86739,
+      "end": 87033,
+      "ipg": "39780132",
+      "cluster_id": 5
+    },
+    {
+      "id": 41,
+      "name": "SUM43731.1",
+      "identity": 69.481,
+      "coverage": 100.0,
+      "bitscore": 204.0,
+      "evalue": 1.52e-64,
+      "strand": -1,
+      "start": 87075,
+      "end": 87540,
+      "ipg": "39780131",
+      "cluster_id": 5
+    },
+    {
+      "id": 42,
+      "name": "SUM43733.1",
+      "identity": 78.462,
+      "coverage": 100.0,
+      "bitscore": 105.0,
+      "evalue": 4.25e-28,
+      "strand": -1,
+      "start": 87543,
+      "end": 87741,
+      "ipg": "39780130",
+      "cluster_id": 5
+    },
+    {
+      "id": 43,
+      "name": "PNZ49510.1",
+      "identity": 65.889,
+      "coverage": 71.3097713097713,
+      "bitscore": 399.0,
+      "evalue": 3.15e-133,
+      "strand": 1,
+      "start": 0,
+      "end": 1051,
+      "ipg": "176933923",
+      "cluster_id": 6
+    },
+    {
+      "id": 44,
+      "name": "PNZ49511.1",
+      "identity": 60.44,
+      "coverage": 94.7368421052632,
+      "bitscore": 108.0,
+      "evalue": 1.71e-28,
+      "strand": 1,
+      "start": 1025,
+      "end": 1325,
+      "ipg": "39780134",
+      "cluster_id": 6
+    },
+    {
+      "id": 45,
+      "name": "PNZ49512.1",
+      "identity": 60.116,
+      "coverage": 100.0,
+      "bitscore": 220.0,
+      "evalue": 2.87e-70,
+      "strand": 1,
+      "start": 1308,
+      "end": 1830,
+      "ipg": "39780133",
+      "cluster_id": 6
+    },
+    {
+      "id": 46,
+      "name": "PNZ49522.1",
+      "identity": 70.312,
+      "coverage": 65.3061224489796,
+      "bitscore": 101.0,
+      "evalue": 9.8e-26,
+      "strand": 1,
+      "start": 1934,
+      "end": 2129,
+      "ipg": "88529949",
+      "cluster_id": 6
+    },
+    {
+      "id": 47,
+      "name": "PNZ49513.1",
+      "identity": 69.481,
+      "coverage": 100.0,
+      "bitscore": 204.0,
+      "evalue": 1.52e-64,
+      "strand": -1,
+      "start": 2171,
+      "end": 2636,
+      "ipg": "39780131",
+      "cluster_id": 6
+    },
+    {
+      "id": 48,
+      "name": "PNZ49514.1",
+      "identity": 78.462,
+      "coverage": 100.0,
+      "bitscore": 105.0,
+      "evalue": 4.25e-28,
+      "strand": -1,
+      "start": 2639,
+      "end": 2837,
+      "ipg": "39780130",
+      "cluster_id": 6
+    },
+    {
+      "id": 49,
+      "name": "MBE6180829.1",
+      "identity": 78.462,
+      "coverage": 100.0,
+      "bitscore": 106.0,
+      "evalue": 2.88e-28,
+      "strand": 1,
+      "start": 10236,
+      "end": 10437,
+      "ipg": "368213117",
+      "cluster_id": 7
+    },
+    {
+      "id": 50,
+      "name": "MBE6180830.1",
+      "identity": 67.532,
+      "coverage": 100.0,
+      "bitscore": 197.0,
+      "evalue": 1.59e-61,
+      "strand": 1,
+      "start": 10437,
+      "end": 10902,
+      "ipg": "368213133",
+      "cluster_id": 7
+    },
+    {
+      "id": 51,
+      "name": "MBE6180831.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 129.0,
+      "evalue": 1.41e-36,
+      "strand": -1,
+      "start": 10945,
+      "end": 11209,
+      "ipg": "368213132",
+      "cluster_id": 7
+    },
+    {
+      "id": 52,
+      "name": "MBE6180832.1",
+      "identity": 61.85,
+      "coverage": 100.0,
+      "bitscore": 224.0,
+      "evalue": 1.48e-71,
+      "strand": -1,
+      "start": 11244,
+      "end": 11766,
+      "ipg": "368213156",
+      "cluster_id": 7
+    },
+    {
+      "id": 53,
+      "name": "MBE6180833.1",
+      "identity": 69.231,
+      "coverage": 100.0,
+      "bitscore": 606.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 12021,
+      "end": 13470,
+      "ipg": "368213047",
+      "cluster_id": 7
+    },
+    {
+      "id": 54,
+      "name": "MBE6180834.1",
+      "identity": 75.745,
+      "coverage": 100.0,
+      "bitscore": 360.0,
+      "evalue": 1.89e-123,
+      "strand": -1,
+      "start": 13473,
+      "end": 14181,
+      "ipg": "368213048",
+      "cluster_id": 7
+    },
+    {
+      "id": 55,
+      "name": "MBE6180835.1",
+      "identity": 62.245,
+      "coverage": 90.3225806451613,
+      "bitscore": 247.0,
+      "evalue": 2.71e-79,
+      "strand": 1,
+      "start": 14293,
+      "end": 14947,
+      "ipg": "368213014",
+      "cluster_id": 7
+    },
+    {
+      "id": 56,
+      "name": "WP_049431431.1",
+      "identity": 60.648,
+      "coverage": 99.5391705069124,
+      "bitscore": 244.0,
+      "evalue": 2.58e-78,
+      "strand": -1,
+      "start": 613,
+      "end": 1270,
+      "ipg": "86158911",
+      "cluster_id": 8
+    },
+    {
+      "id": 57,
+      "name": "WP_049431434.1",
+      "identity": 74.894,
+      "coverage": 100.0,
+      "bitscore": 362.0,
+      "evalue": 3.95e-124,
+      "strand": 1,
+      "start": 1388,
+      "end": 2096,
+      "ipg": "86158914",
+      "cluster_id": 8
+    },
+    {
+      "id": 58,
+      "name": "WP_049431437.1",
+      "identity": 68.53,
+      "coverage": 100.0,
+      "bitscore": 599.0,
+      "evalue": 0.0,
+      "strand": 1,
+      "start": 2099,
+      "end": 3548,
+      "ipg": "86158917",
+      "cluster_id": 8
+    },
+    {
+      "id": 59,
+      "name": "WP_049431439.1",
+      "identity": 62.105,
+      "coverage": 100.0,
+      "bitscore": 105.0,
+      "evalue": 3.2e-27,
+      "strand": 1,
+      "start": 3519,
+      "end": 3807,
+      "ipg": "86158919",
+      "cluster_id": 8
+    },
+    {
+      "id": 60,
+      "name": "WP_160312154.1",
+      "identity": 60.448,
+      "coverage": 77.4566473988439,
+      "bitscore": 171.0,
+      "evalue": 3.98e-51,
+      "strand": 1,
+      "start": 3917,
+      "end": 4325,
+      "ipg": "293881077",
+      "cluster_id": 8
+    },
+    {
+      "id": 61,
+      "name": "WP_239665823.1",
+      "identity": 70.103,
+      "coverage": 98.9795918367347,
+      "bitscore": 128.0,
+      "evalue": 3.32e-36,
+      "strand": 1,
+      "start": 4330,
+      "end": 4624,
+      "ipg": "527351829",
+      "cluster_id": 8
+    },
+    {
+      "id": 62,
+      "name": "WP_049431445.1",
+      "identity": 70.13,
+      "coverage": 100.0,
+      "bitscore": 205.0,
+      "evalue": 1.18e-64,
+      "strand": -1,
+      "start": 4667,
+      "end": 5132,
+      "ipg": "86158925",
+      "cluster_id": 8
+    },
+    {
+      "id": 63,
+      "name": "WP_239665824.1",
+      "identity": 76.667,
+      "coverage": 92.3076923076923,
+      "bitscore": 97.1,
+      "evalue": 1.08e-24,
+      "strand": -1,
+      "start": 5135,
+      "end": 5318,
+      "ipg": "527351862",
+      "cluster_id": 8
+    },
+    {
+      "id": 64,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 7685,
+      "end": 7883,
+      "ipg": "373272785",
+      "cluster_id": 9
+    },
+    {
+      "id": 65,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 7886,
+      "end": 8351,
+      "ipg": "373272730",
+      "cluster_id": 9
+    },
+    {
+      "id": 66,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 8394,
+      "end": 8658,
+      "ipg": "373272747",
+      "cluster_id": 9
+    },
+    {
+      "id": 67,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 9211,
+      "end": 9499,
+      "ipg": "373272778",
+      "cluster_id": 9
+    },
+    {
+      "id": 68,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 9470,
+      "end": 10919,
+      "ipg": "373272737",
+      "cluster_id": 9
+    },
+    {
+      "id": 69,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 10922,
+      "end": 11630,
+      "ipg": "373272734",
+      "cluster_id": 9
+    },
+    {
+      "id": 70,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 11740,
+      "end": 12394,
+      "ipg": "373272752",
+      "cluster_id": 9
+    },
+    {
+      "id": 71,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 6091,
+      "end": 6289,
+      "ipg": "373272785",
+      "cluster_id": 10
+    },
+    {
+      "id": 72,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 6292,
+      "end": 6757,
+      "ipg": "373272730",
+      "cluster_id": 10
+    },
+    {
+      "id": 73,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 6800,
+      "end": 7064,
+      "ipg": "373272747",
+      "cluster_id": 10
+    },
+    {
+      "id": 74,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 7617,
+      "end": 7905,
+      "ipg": "373272778",
+      "cluster_id": 10
+    },
+    {
+      "id": 75,
+      "name": "WP_194750560.1",
+      "identity": 66.112,
+      "coverage": 100.0,
+      "bitscore": 571.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 7876,
+      "end": 9325,
+      "ipg": "373273892",
+      "cluster_id": 10
+    },
+    {
+      "id": 76,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 9328,
+      "end": 10036,
+      "ipg": "373272734",
+      "cluster_id": 10
+    },
+    {
+      "id": 77,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 7685,
+      "end": 7883,
+      "ipg": "373272785",
+      "cluster_id": 11
+    },
+    {
+      "id": 78,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 7886,
+      "end": 8351,
+      "ipg": "373272730",
+      "cluster_id": 11
+    },
+    {
+      "id": 79,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 8394,
+      "end": 8658,
+      "ipg": "373272747",
+      "cluster_id": 11
+    },
+    {
+      "id": 80,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 9211,
+      "end": 9499,
+      "ipg": "373272778",
+      "cluster_id": 11
+    },
+    {
+      "id": 81,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 9470,
+      "end": 10919,
+      "ipg": "373272737",
+      "cluster_id": 11
+    },
+    {
+      "id": 82,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 10922,
+      "end": 11630,
+      "ipg": "373272734",
+      "cluster_id": 11
+    },
+    {
+      "id": 83,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 11740,
+      "end": 12394,
+      "ipg": "373272752",
+      "cluster_id": 11
+    },
+    {
+      "id": 84,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 6091,
+      "end": 6289,
+      "ipg": "373272785",
+      "cluster_id": 12
+    },
+    {
+      "id": 85,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 6292,
+      "end": 6757,
+      "ipg": "373272730",
+      "cluster_id": 12
+    },
+    {
+      "id": 86,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 6800,
+      "end": 7064,
+      "ipg": "373272747",
+      "cluster_id": 12
+    },
+    {
+      "id": 87,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 7617,
+      "end": 7905,
+      "ipg": "373272778",
+      "cluster_id": 12
+    },
+    {
+      "id": 88,
+      "name": "WP_194750560.1",
+      "identity": 66.112,
+      "coverage": 100.0,
+      "bitscore": 571.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 7876,
+      "end": 9325,
+      "ipg": "373273892",
+      "cluster_id": 12
+    },
+    {
+      "id": 89,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 9328,
+      "end": 10036,
+      "ipg": "373272734",
+      "cluster_id": 12
+    },
+    {
+      "id": 90,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 7685,
+      "end": 7883,
+      "ipg": "373272785",
+      "cluster_id": 13
+    },
+    {
+      "id": 91,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 7886,
+      "end": 8351,
+      "ipg": "373272730",
+      "cluster_id": 13
+    },
+    {
+      "id": 92,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 8394,
+      "end": 8658,
+      "ipg": "373272747",
+      "cluster_id": 13
+    },
+    {
+      "id": 93,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 7685,
+      "end": 7883,
+      "ipg": "373272785",
+      "cluster_id": 14
+    },
+    {
+      "id": 94,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 7886,
+      "end": 8351,
+      "ipg": "373272730",
+      "cluster_id": 14
+    },
+    {
+      "id": 95,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 8394,
+      "end": 8658,
+      "ipg": "373272747",
+      "cluster_id": 14
+    },
+    {
+      "id": 96,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 7685,
+      "end": 7883,
+      "ipg": "373272785",
+      "cluster_id": 15
+    },
+    {
+      "id": 97,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 7886,
+      "end": 8351,
+      "ipg": "373272730",
+      "cluster_id": 15
+    },
+    {
+      "id": 98,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 8394,
+      "end": 8658,
+      "ipg": "373272747",
+      "cluster_id": 15
+    },
+    {
+      "id": 99,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 9211,
+      "end": 9499,
+      "ipg": "373272778",
+      "cluster_id": 15
+    },
+    {
+      "id": 100,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 9470,
+      "end": 10919,
+      "ipg": "373272737",
+      "cluster_id": 15
+    },
+    {
+      "id": 101,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 10922,
+      "end": 11630,
+      "ipg": "373272734",
+      "cluster_id": 15
+    },
+    {
+      "id": 102,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 11740,
+      "end": 12394,
+      "ipg": "373272752",
+      "cluster_id": 15
+    },
+    {
+      "id": 103,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 7685,
+      "end": 7883,
+      "ipg": "373272785",
+      "cluster_id": 16
+    },
+    {
+      "id": 104,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 7886,
+      "end": 8351,
+      "ipg": "373272730",
+      "cluster_id": 16
+    },
+    {
+      "id": 105,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 8394,
+      "end": 8658,
+      "ipg": "373272747",
+      "cluster_id": 16
+    },
+    {
+      "id": 106,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 7685,
+      "end": 7883,
+      "ipg": "373272785",
+      "cluster_id": 17
+    },
+    {
+      "id": 107,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 7886,
+      "end": 8351,
+      "ipg": "373272730",
+      "cluster_id": 17
+    },
+    {
+      "id": 108,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 8394,
+      "end": 8658,
+      "ipg": "373272747",
+      "cluster_id": 17
+    },
+    {
+      "id": 109,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 9211,
+      "end": 9499,
+      "ipg": "373272778",
+      "cluster_id": 17
+    },
+    {
+      "id": 110,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 9470,
+      "end": 10919,
+      "ipg": "373272737",
+      "cluster_id": 17
+    },
+    {
+      "id": 111,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 10922,
+      "end": 11630,
+      "ipg": "373272734",
+      "cluster_id": 17
+    },
+    {
+      "id": 112,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 11740,
+      "end": 12394,
+      "ipg": "373272752",
+      "cluster_id": 17
+    },
+    {
+      "id": 113,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 6353,
+      "end": 6551,
+      "ipg": "373272785",
+      "cluster_id": 18
+    },
+    {
+      "id": 114,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 6554,
+      "end": 7019,
+      "ipg": "373272730",
+      "cluster_id": 18
+    },
+    {
+      "id": 115,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 7062,
+      "end": 7326,
+      "ipg": "373272747",
+      "cluster_id": 18
+    },
+    {
+      "id": 116,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 7879,
+      "end": 8167,
+      "ipg": "373272778",
+      "cluster_id": 18
+    },
+    {
+      "id": 117,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 8138,
+      "end": 9587,
+      "ipg": "373272737",
+      "cluster_id": 18
+    },
+    {
+      "id": 118,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 9590,
+      "end": 10298,
+      "ipg": "373272734",
+      "cluster_id": 18
+    },
+    {
+      "id": 119,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 10408,
+      "end": 11062,
+      "ipg": "373272752",
+      "cluster_id": 18
+    },
+    {
+      "id": 120,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 6353,
+      "end": 6551,
+      "ipg": "373272785",
+      "cluster_id": 19
+    },
+    {
+      "id": 121,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 6554,
+      "end": 7019,
+      "ipg": "373272730",
+      "cluster_id": 19
+    },
+    {
+      "id": 122,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 7062,
+      "end": 7326,
+      "ipg": "373272747",
+      "cluster_id": 19
+    },
+    {
+      "id": 123,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 7879,
+      "end": 8167,
+      "ipg": "373272778",
+      "cluster_id": 19
+    },
+    {
+      "id": 124,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 8138,
+      "end": 9587,
+      "ipg": "373272737",
+      "cluster_id": 19
+    },
+    {
+      "id": 125,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 9590,
+      "end": 10298,
+      "ipg": "373272734",
+      "cluster_id": 19
+    },
+    {
+      "id": 126,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 10408,
+      "end": 11062,
+      "ipg": "373272752",
+      "cluster_id": 19
+    },
+    {
+      "id": 127,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 1787,
+      "end": 1985,
+      "ipg": "373272785",
+      "cluster_id": 20
+    },
+    {
+      "id": 128,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 1988,
+      "end": 2453,
+      "ipg": "373272730",
+      "cluster_id": 20
+    },
+    {
+      "id": 129,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 2496,
+      "end": 2760,
+      "ipg": "373272747",
+      "cluster_id": 20
+    },
+    {
+      "id": 130,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 3313,
+      "end": 3601,
+      "ipg": "373272778",
+      "cluster_id": 20
+    },
+    {
+      "id": 131,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 3572,
+      "end": 5021,
+      "ipg": "373272737",
+      "cluster_id": 20
+    },
+    {
+      "id": 132,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 5024,
+      "end": 5732,
+      "ipg": "373272734",
+      "cluster_id": 20
+    },
+    {
+      "id": 133,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 5842,
+      "end": 6496,
+      "ipg": "373272752",
+      "cluster_id": 20
+    },
+    {
+      "id": 134,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 1786,
+      "end": 1984,
+      "ipg": "373272785",
+      "cluster_id": 21
+    },
+    {
+      "id": 135,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 1987,
+      "end": 2452,
+      "ipg": "373272730",
+      "cluster_id": 21
+    },
+    {
+      "id": 136,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 2495,
+      "end": 2759,
+      "ipg": "373272747",
+      "cluster_id": 21
+    },
+    {
+      "id": 137,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 3312,
+      "end": 3600,
+      "ipg": "373272778",
+      "cluster_id": 21
+    },
+    {
+      "id": 138,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 3571,
+      "end": 5020,
+      "ipg": "373272737",
+      "cluster_id": 21
+    },
+    {
+      "id": 139,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 5023,
+      "end": 5731,
+      "ipg": "373272734",
+      "cluster_id": 21
+    },
+    {
+      "id": 140,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 5841,
+      "end": 6495,
+      "ipg": "373272752",
+      "cluster_id": 21
+    },
+    {
+      "id": 141,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 1787,
+      "end": 1985,
+      "ipg": "373272785",
+      "cluster_id": 22
+    },
+    {
+      "id": 142,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 1988,
+      "end": 2453,
+      "ipg": "373272730",
+      "cluster_id": 22
+    },
+    {
+      "id": 143,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 2496,
+      "end": 2760,
+      "ipg": "373272747",
+      "cluster_id": 22
+    },
+    {
+      "id": 144,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 3313,
+      "end": 3601,
+      "ipg": "373272778",
+      "cluster_id": 22
+    },
+    {
+      "id": 145,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 3572,
+      "end": 5021,
+      "ipg": "373272737",
+      "cluster_id": 22
+    },
+    {
+      "id": 146,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 5024,
+      "end": 5732,
+      "ipg": "373272734",
+      "cluster_id": 22
+    },
+    {
+      "id": 147,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 5842,
+      "end": 6496,
+      "ipg": "373272752",
+      "cluster_id": 22
+    },
+    {
+      "id": 148,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 6353,
+      "end": 6551,
+      "ipg": "373272785",
+      "cluster_id": 23
+    },
+    {
+      "id": 149,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 6554,
+      "end": 7019,
+      "ipg": "373272730",
+      "cluster_id": 23
+    },
+    {
+      "id": 150,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 7062,
+      "end": 7326,
+      "ipg": "373272747",
+      "cluster_id": 23
+    },
+    {
+      "id": 151,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 7879,
+      "end": 8167,
+      "ipg": "373272778",
+      "cluster_id": 23
+    },
+    {
+      "id": 152,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 8138,
+      "end": 9587,
+      "ipg": "373272737",
+      "cluster_id": 23
+    },
+    {
+      "id": 153,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 9590,
+      "end": 10298,
+      "ipg": "373272734",
+      "cluster_id": 23
+    },
+    {
+      "id": 154,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 10408,
+      "end": 11062,
+      "ipg": "373272752",
+      "cluster_id": 23
+    },
+    {
+      "id": 155,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 1786,
+      "end": 1984,
+      "ipg": "373272785",
+      "cluster_id": 24
+    },
+    {
+      "id": 156,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 1987,
+      "end": 2452,
+      "ipg": "373272730",
+      "cluster_id": 24
+    },
+    {
+      "id": 157,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 2495,
+      "end": 2759,
+      "ipg": "373272747",
+      "cluster_id": 24
+    },
+    {
+      "id": 158,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 3312,
+      "end": 3600,
+      "ipg": "373272778",
+      "cluster_id": 24
+    },
+    {
+      "id": 159,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 3571,
+      "end": 5020,
+      "ipg": "373272737",
+      "cluster_id": 24
+    },
+    {
+      "id": 160,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 5023,
+      "end": 5731,
+      "ipg": "373272734",
+      "cluster_id": 24
+    },
+    {
+      "id": 161,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 5841,
+      "end": 6495,
+      "ipg": "373272752",
+      "cluster_id": 24
+    },
+    {
+      "id": 162,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 1787,
+      "end": 1985,
+      "ipg": "373272785",
+      "cluster_id": 25
+    },
+    {
+      "id": 163,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 1988,
+      "end": 2453,
+      "ipg": "373272730",
+      "cluster_id": 25
+    },
+    {
+      "id": 164,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 2496,
+      "end": 2760,
+      "ipg": "373272747",
+      "cluster_id": 25
+    },
+    {
+      "id": 165,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 3313,
+      "end": 3601,
+      "ipg": "373272778",
+      "cluster_id": 25
+    },
+    {
+      "id": 166,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 3572,
+      "end": 5021,
+      "ipg": "373272737",
+      "cluster_id": 25
+    },
+    {
+      "id": 167,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 5024,
+      "end": 5732,
+      "ipg": "373272734",
+      "cluster_id": 25
+    },
+    {
+      "id": 168,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 5842,
+      "end": 6496,
+      "ipg": "373272752",
+      "cluster_id": 25
+    },
+    {
+      "id": 169,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 1787,
+      "end": 1985,
+      "ipg": "373272785",
+      "cluster_id": 26
+    },
+    {
+      "id": 170,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 1988,
+      "end": 2453,
+      "ipg": "373272730",
+      "cluster_id": 26
+    },
+    {
+      "id": 171,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 2496,
+      "end": 2760,
+      "ipg": "373272747",
+      "cluster_id": 26
+    },
+    {
+      "id": 172,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 3313,
+      "end": 3601,
+      "ipg": "373272778",
+      "cluster_id": 26
+    },
+    {
+      "id": 173,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 3572,
+      "end": 5021,
+      "ipg": "373272737",
+      "cluster_id": 26
+    },
+    {
+      "id": 174,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 5024,
+      "end": 5732,
+      "ipg": "373272734",
+      "cluster_id": 26
+    },
+    {
+      "id": 175,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 5842,
+      "end": 6496,
+      "ipg": "373272752",
+      "cluster_id": 26
+    },
+    {
+      "id": 176,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 6353,
+      "end": 6551,
+      "ipg": "373272785",
+      "cluster_id": 27
+    },
+    {
+      "id": 177,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 6554,
+      "end": 7019,
+      "ipg": "373272730",
+      "cluster_id": 27
+    },
+    {
+      "id": 178,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 7062,
+      "end": 7326,
+      "ipg": "373272747",
+      "cluster_id": 27
+    },
+    {
+      "id": 179,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 7879,
+      "end": 8167,
+      "ipg": "373272778",
+      "cluster_id": 27
+    },
+    {
+      "id": 180,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 8138,
+      "end": 9587,
+      "ipg": "373272737",
+      "cluster_id": 27
+    },
+    {
+      "id": 181,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 9590,
+      "end": 10298,
+      "ipg": "373272734",
+      "cluster_id": 27
+    },
+    {
+      "id": 182,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 10408,
+      "end": 11062,
+      "ipg": "373272752",
+      "cluster_id": 27
+    },
+    {
+      "id": 183,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 6353,
+      "end": 6551,
+      "ipg": "373272785",
+      "cluster_id": 28
+    },
+    {
+      "id": 184,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 6554,
+      "end": 7019,
+      "ipg": "373272730",
+      "cluster_id": 28
+    },
+    {
+      "id": 185,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 7062,
+      "end": 7326,
+      "ipg": "373272747",
+      "cluster_id": 28
+    },
+    {
+      "id": 186,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 7879,
+      "end": 8167,
+      "ipg": "373272778",
+      "cluster_id": 28
+    },
+    {
+      "id": 187,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 8138,
+      "end": 9587,
+      "ipg": "373272737",
+      "cluster_id": 28
+    },
+    {
+      "id": 188,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 9590,
+      "end": 10298,
+      "ipg": "373272734",
+      "cluster_id": 28
+    },
+    {
+      "id": 189,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 10408,
+      "end": 11062,
+      "ipg": "373272752",
+      "cluster_id": 28
+    },
+    {
+      "id": 190,
+      "name": "WP_194746628.1",
+      "identity": 81.538,
+      "coverage": 100.0,
+      "bitscore": 109.0,
+      "evalue": 1.05e-29,
+      "strand": 1,
+      "start": 6614,
+      "end": 6812,
+      "ipg": "373272785",
+      "cluster_id": 29
+    },
+    {
+      "id": 191,
+      "name": "WP_194746629.1",
+      "identity": 68.831,
+      "coverage": 100.0,
+      "bitscore": 185.0,
+      "evalue": 6.01e-57,
+      "strand": 1,
+      "start": 6815,
+      "end": 7280,
+      "ipg": "373272730",
+      "cluster_id": 29
+    },
+    {
+      "id": 192,
+      "name": "WP_194746638.1",
+      "identity": 70.115,
+      "coverage": 88.7755102040816,
+      "bitscore": 127.0,
+      "evalue": 6.08e-36,
+      "strand": -1,
+      "start": 7323,
+      "end": 7587,
+      "ipg": "373272747",
+      "cluster_id": 29
+    },
+    {
+      "id": 193,
+      "name": "WP_194746631.1",
+      "identity": 59.574,
+      "coverage": 97.8947368421053,
+      "bitscore": 103.0,
+      "evalue": 3.89e-26,
+      "strand": -1,
+      "start": 8140,
+      "end": 8428,
+      "ipg": "373272778",
+      "cluster_id": 29
+    },
+    {
+      "id": 194,
+      "name": "WP_194746632.1",
+      "identity": 66.32,
+      "coverage": 100.0,
+      "bitscore": 569.0,
+      "evalue": 0.0,
+      "strand": -1,
+      "start": 8399,
+      "end": 9848,
+      "ipg": "373272737",
+      "cluster_id": 29
+    },
+    {
+      "id": 195,
+      "name": "WP_194746633.1",
+      "identity": 74.043,
+      "coverage": 100.0,
+      "bitscore": 358.0,
+      "evalue": 7.69e-123,
+      "strand": -1,
+      "start": 9851,
+      "end": 10559,
+      "ipg": "373272734",
+      "cluster_id": 29
+    },
+    {
+      "id": 196,
+      "name": "WP_194746634.1",
+      "identity": 59.908,
+      "coverage": 100.0,
+      "bitscore": 257.0,
+      "evalue": 1.96e-83,
+      "strand": 1,
+      "start": 10669,
+      "end": 11323,
+      "ipg": "373272752",
+      "cluster_id": 29
+    },
+    {
+      "id": 197,
+      "name": "WP_226957468.1",
+      "identity": 41.0,
+      "coverage": 100.0,
+      "bitscore": 81.6,
+      "evalue": 1.52e-17,
+      "strand": -1,
+      "start": 3211,
+      "end": 3511,
+      "ipg": "497949702",
+      "cluster_id": 30
+    },
+    {
+      "id": 198,
+      "name": "WP_069817223.1",
+      "identity": 42.424,
+      "coverage": 69.4736842105263,
+      "bitscore": 53.1,
+      "evalue": 1.96e-06,
+      "strand": -1,
+      "start": 3992,
+      "end": 4310,
+      "ipg": "119107148",
+      "cluster_id": 30
+    },
+    {
+      "id": 199,
+      "name": "WP_069817225.1",
+      "identity": 42.292,
+      "coverage": 99.5841995841996,
+      "bitscore": 293.0,
+      "evalue": 8.46e-90,
+      "strand": -1,
+      "start": 4284,
+      "end": 5730,
+      "ipg": "119107149",
+      "cluster_id": 30
+    },
+    {
+      "id": 200,
+      "name": "WP_069817226.1",
+      "identity": 57.384,
+      "coverage": 99.5744680851064,
+      "bitscore": 256.0,
+      "evalue": 3.72e-82,
+      "strand": -1,
+      "start": 5722,
+      "end": 6445,
+      "ipg": "119107150",
+      "cluster_id": 30
+    },
+    {
+      "id": 201,
+      "name": "WP_069817228.1",
+      "identity": 33.032,
+      "coverage": 99.5391705069124,
+      "bitscore": 91.3,
+      "evalue": 2.26e-18,
+      "strand": 1,
+      "start": 6616,
+      "end": 7276,
+      "ipg": "119107151",
+      "cluster_id": 30
+    },
+    {
+      "id": 202,
+      "name": "WP_226957468.1",
+      "identity": 41.0,
+      "coverage": 100.0,
+      "bitscore": 81.6,
+      "evalue": 1.52e-17,
+      "strand": -1,
+      "start": 2315,
+      "end": 2615,
+      "ipg": "497949702",
+      "cluster_id": 31
+    },
+    {
+      "id": 203,
+      "name": "WP_226957477.1",
+      "identity": 39.683,
+      "coverage": 72.8323699421965,
+      "bitscore": 105.0,
+      "evalue": 1.23e-25,
+      "strand": -1,
+      "start": 2618,
+      "end": 2999,
+      "ipg": "497949703",
+      "cluster_id": 31
+    },
+    {
+      "id": 204,
+      "name": "WP_069817223.1",
+      "identity": 42.424,
+      "coverage": 69.4736842105263,
+      "bitscore": 53.1,
+      "evalue": 1.96e-06,
+      "strand": -1,
+      "start": 3096,
+      "end": 3414,
+      "ipg": "119107148",
+      "cluster_id": 31
+    },
+    {
+      "id": 205,
+      "name": "WP_069817225.1",
+      "identity": 42.292,
+      "coverage": 99.5841995841996,
+      "bitscore": 293.0,
+      "evalue": 8.46e-90,
+      "strand": -1,
+      "start": 3388,
+      "end": 4834,
+      "ipg": "119107149",
+      "cluster_id": 31
+    },
+    {
+      "id": 206,
+      "name": "WP_069817226.1",
+      "identity": 57.384,
+      "coverage": 99.5744680851064,
+      "bitscore": 256.0,
+      "evalue": 3.72e-82,
+      "strand": -1,
+      "start": 4826,
+      "end": 5549,
+      "ipg": "119107150",
+      "cluster_id": 31
+    },
+    {
+      "id": 207,
+      "name": "WP_069817228.1",
+      "identity": 33.032,
+      "coverage": 99.5391705069124,
+      "bitscore": 91.3,
+      "evalue": 2.26e-18,
+      "strand": 1,
+      "start": 5720,
+      "end": 6380,
+      "ipg": "119107151",
+      "cluster_id": 31
+    },
+    {
+      "id": 208,
+      "name": "OEK67424.1",
+      "identity": 45.902,
+      "coverage": 62.2448979591837,
+      "bitscore": 63.9,
+      "evalue": 5.13e-11,
+      "strand": -1,
+      "start": 2315,
+      "end": 2498,
+      "ipg": "119107235",
+      "cluster_id": 32
+    },
+    {
+      "id": 209,
+      "name": "OEK67318.1",
+      "identity": 36.686,
+      "coverage": 97.6878612716763,
+      "bitscore": 122.0,
+      "evalue": 9.59e-32,
+      "strand": -1,
+      "start": 2618,
+      "end": 3131,
+      "ipg": "119107147",
+      "cluster_id": 32
+    },
+    {
+      "id": 210,
+      "name": "OEK67319.1",
+      "identity": 42.424,
+      "coverage": 69.4736842105263,
+      "bitscore": 53.1,
+      "evalue": 1.96e-06,
+      "strand": -1,
+      "start": 3096,
+      "end": 3414,
+      "ipg": "119107148",
+      "cluster_id": 32
+    },
+    {
+      "id": 211,
+      "name": "OEK67320.1",
+      "identity": 42.292,
+      "coverage": 99.5841995841996,
+      "bitscore": 293.0,
+      "evalue": 8.46e-90,
+      "strand": -1,
+      "start": 3388,
+      "end": 4834,
+      "ipg": "119107149",
+      "cluster_id": 32
+    },
+    {
+      "id": 212,
+      "name": "OEK67321.1",
+      "identity": 57.384,
+      "coverage": 99.5744680851064,
+      "bitscore": 256.0,
+      "evalue": 3.72e-82,
+      "strand": -1,
+      "start": 4826,
+      "end": 5549,
+      "ipg": "119107150",
+      "cluster_id": 32
+    },
+    {
+      "id": 213,
+      "name": "OEK67322.1",
+      "identity": 33.032,
+      "coverage": 99.5391705069124,
+      "bitscore": 91.3,
+      "evalue": 2.26e-18,
+      "strand": 1,
+      "start": 5720,
+      "end": 6380,
+      "ipg": "119107151",
+      "cluster_id": 32
+    },
+    {
+      "id": 214,
+      "name": "WP_226957468.1",
+      "identity": 41.0,
+      "coverage": 100.0,
+      "bitscore": 81.6,
+      "evalue": 1.52e-17,
+      "strand": -1,
+      "start": 2373,
+      "end": 2673,
+      "ipg": "497949702",
+      "cluster_id": 33
+    },
+    {
+      "id": 215,
+      "name": "WP_069817223.1",
+      "identity": 42.424,
+      "coverage": 69.4736842105263,
+      "bitscore": 53.1,
+      "evalue": 1.96e-06,
+      "strand": -1,
+      "start": 3154,
+      "end": 3472,
+      "ipg": "119107148",
+      "cluster_id": 33
+    },
+    {
+      "id": 216,
+      "name": "WP_069817225.1",
+      "identity": 42.292,
+      "coverage": 99.5841995841996,
+      "bitscore": 293.0,
+      "evalue": 8.46e-90,
+      "strand": -1,
+      "start": 3446,
+      "end": 4892,
+      "ipg": "119107149",
+      "cluster_id": 33
+    },
+    {
+      "id": 217,
+      "name": "WP_069817226.1",
+      "identity": 57.384,
+      "coverage": 99.5744680851064,
+      "bitscore": 256.0,
+      "evalue": 3.72e-82,
+      "strand": -1,
+      "start": 4884,
+      "end": 5607,
+      "ipg": "119107150",
+      "cluster_id": 33
+    },
+    {
+      "id": 218,
+      "name": "WP_069817228.1",
+      "identity": 33.032,
+      "coverage": 99.5391705069124,
+      "bitscore": 91.3,
+      "evalue": 2.26e-18,
+      "strand": 1,
+      "start": 5778,
+      "end": 6438,
+      "ipg": "119107151",
+      "cluster_id": 33
+    },
+    {
+      "id": 219,
+      "name": "OEK68686.1",
+      "identity": 45.902,
+      "coverage": 62.2448979591837,
+      "bitscore": 63.9,
+      "evalue": 5.13e-11,
+      "strand": -1,
+      "start": 2373,
+      "end": 2556,
+      "ipg": "119107235",
+      "cluster_id": 34
+    },
+    {
+      "id": 220,
+      "name": "OEK68575.1",
+      "identity": 36.686,
+      "coverage": 97.6878612716763,
+      "bitscore": 122.0,
+      "evalue": 9.59e-32,
+      "strand": -1,
+      "start": 2676,
+      "end": 3189,
+      "ipg": "119107147",
+      "cluster_id": 34
+    },
+    {
+      "id": 221,
+      "name": "OEK68576.1",
+      "identity": 42.424,
+      "coverage": 69.4736842105263,
+      "bitscore": 53.1,
+      "evalue": 1.96e-06,
+      "strand": -1,
+      "start": 3154,
+      "end": 3472,
+      "ipg": "119107148",
+      "cluster_id": 34
+    },
+    {
+      "id": 222,
+      "name": "OEK68577.1",
+      "identity": 42.292,
+      "coverage": 99.5841995841996,
+      "bitscore": 293.0,
+      "evalue": 8.46e-90,
+      "strand": -1,
+      "start": 3446,
+      "end": 4892,
+      "ipg": "119107149",
+      "cluster_id": 34
+    },
+    {
+      "id": 223,
+      "name": "OEK68578.1",
+      "identity": 57.384,
+      "coverage": 99.5744680851064,
+      "bitscore": 256.0,
+      "evalue": 3.72e-82,
+      "strand": -1,
+      "start": 4884,
+      "end": 5607,
+      "ipg": "119107150",
+      "cluster_id": 34
+    },
+    {
+      "id": 224,
+      "name": "OEK68579.1",
+      "identity": 33.032,
+      "coverage": 99.5391705069124,
+      "bitscore": 91.3,
+      "evalue": 2.26e-18,
+      "strand": 1,
+      "start": 5778,
+      "end": 6438,
+      "ipg": "119107151",
+      "cluster_id": 34
+    },
+    {
+      "id": 225,
+      "name": "WP_102841684.1",
+      "identity": 53.043,
+      "coverage": 97.8723404255319,
+      "bitscore": 231.0,
+      "evalue": 9.54e-73,
+      "strand": 1,
+      "start": 727,
+      "end": 1420,
+      "ipg": "134859617",
+      "cluster_id": 35
+    },
+    {
+      "id": 226,
+      "name": "WP_102841685.1",
+      "identity": 41.139,
+      "coverage": 98.3367983367983,
+      "bitscore": 347.0,
+      "evalue": 5.51e-111,
+      "strand": 1,
+      "start": 1440,
+      "end": 2886,
+      "ipg": "134859627",
+      "cluster_id": 35
+    },
+    {
+      "id": 227,
+      "name": "WP_102841686.1",
+      "identity": 38.947,
+      "coverage": 98.9473684210526,
+      "bitscore": 55.5,
+      "evalue": 2.31e-07,
+      "strand": 1,
+      "start": 2860,
+      "end": 3148,
+      "ipg": "134859630",
+      "cluster_id": 35
+    },
+    {
+      "id": 228,
+      "name": "WP_102841687.1",
+      "identity": 40.116,
+      "coverage": 97.6878612716763,
+      "bitscore": 99.8,
+      "evalue": 9.6e-23,
+      "strand": 1,
+      "start": 3140,
+      "end": 3659,
+      "ipg": "134859624",
+      "cluster_id": 35
+    },
+    {
+      "id": 229,
+      "name": "WP_102841688.1",
+      "identity": 39.326,
+      "coverage": 90.8163265306122,
+      "bitscore": 80.9,
+      "evalue": 3.26e-17,
+      "strand": 1,
+      "start": 3667,
+      "end": 3964,
+      "ipg": "176316292",
+      "cluster_id": 35
+    },
+    {
+      "id": 230,
+      "name": "WP_102841689.1",
+      "identity": 42.208,
+      "coverage": 100.0,
+      "bitscore": 68.9,
+      "evalue": 2.42e-11,
+      "strand": -1,
+      "start": 3997,
+      "end": 4447,
+      "ipg": "134859605",
+      "cluster_id": 35
+    },
+    {
+      "id": 231,
+      "name": "WP_102841690.1",
+      "identity": 57.812,
+      "coverage": 98.4615384615385,
+      "bitscore": 72.4,
+      "evalue": 6.19e-15,
+      "strand": -1,
+      "start": 4453,
+      "end": 4654,
+      "ipg": "134859628",
+      "cluster_id": 35
+    },
+    {
+      "id": 232,
+      "name": "WP_233231498.1",
+      "identity": 35.025,
+      "coverage": 85.7142857142857,
+      "bitscore": 101.0,
+      "evalue": 1.87e-22,
+      "strand": -1,
+      "start": 9317,
+      "end": 642,
+      "ipg": "134859634",
+      "cluster_id": 35
+    },
+    {
+      "id": 233,
+      "name": "APT17792.1",
+      "identity": 53.043,
+      "coverage": 97.8723404255319,
+      "bitscore": 231.0,
+      "evalue": 9.54e-73,
+      "strand": 1,
+      "start": 727,
+      "end": 1420,
+      "ipg": "134859617",
+      "cluster_id": 36
+    },
+    {
+      "id": 234,
+      "name": "APT17793.1",
+      "identity": 41.139,
+      "coverage": 98.3367983367983,
+      "bitscore": 347.0,
+      "evalue": 5.51e-111,
+      "strand": 1,
+      "start": 1440,
+      "end": 2886,
+      "ipg": "134859627",
+      "cluster_id": 36
+    },
+    {
+      "id": 235,
+      "name": "APT17794.1",
+      "identity": 38.947,
+      "coverage": 98.9473684210526,
+      "bitscore": 55.5,
+      "evalue": 2.31e-07,
+      "strand": 1,
+      "start": 2860,
+      "end": 3148,
+      "ipg": "134859630",
+      "cluster_id": 36
+    },
+    {
+      "id": 236,
+      "name": "APT17795.1",
+      "identity": 40.116,
+      "coverage": 97.6878612716763,
+      "bitscore": 99.8,
+      "evalue": 9.6e-23,
+      "strand": 1,
+      "start": 3140,
+      "end": 3659,
+      "ipg": "134859624",
+      "cluster_id": 36
+    },
+    {
+      "id": 237,
+      "name": "APT17803.1",
+      "identity": 42.424,
+      "coverage": 67.3469387755102,
+      "bitscore": 67.4,
+      "evalue": 3.42e-12,
+      "strand": 1,
+      "start": 3712,
+      "end": 3964,
+      "ipg": "134859637",
+      "cluster_id": 36
+    },
+    {
+      "id": 238,
+      "name": "APT17796.1",
+      "identity": 42.208,
+      "coverage": 100.0,
+      "bitscore": 68.9,
+      "evalue": 2.42e-11,
+      "strand": -1,
+      "start": 3997,
+      "end": 4447,
+      "ipg": "134859605",
+      "cluster_id": 36
+    },
+    {
+      "id": 239,
+      "name": "APT17797.1",
+      "identity": 57.812,
+      "coverage": 98.4615384615385,
+      "bitscore": 72.4,
+      "evalue": 6.19e-15,
+      "strand": -1,
+      "start": 4453,
+      "end": 4654,
+      "ipg": "134859628",
+      "cluster_id": 36
+    },
+    {
+      "id": 240,
+      "name": "APT17802.1",
+      "identity": 35.025,
+      "coverage": 85.7142857142857,
+      "bitscore": 101.0,
+      "evalue": 1.87e-22,
+      "strand": -1,
+      "start": 9317,
+      "end": 642,
+      "ipg": "134859634",
+      "cluster_id": 36
+    },
+    {
+      "id": 241,
+      "name": "WP_214923382.1",
+      "identity": 35.789,
+      "coverage": 96.9387755102041,
+      "bitscore": 73.6,
+      "evalue": 1.35e-14,
+      "strand": -1,
+      "start": 22489,
+      "end": 22747,
+      "ipg": "455665912",
+      "cluster_id": 37
+    },
+    {
+      "id": 242,
+      "name": "WP_251029213.1",
+      "identity": 36.134,
+      "coverage": 68.7861271676301,
+      "bitscore": 80.9,
+      "evalue": 7.59e-16,
+      "strand": -1,
+      "start": 22761,
+      "end": 23142,
+      "ipg": "557483595",
+      "cluster_id": 37
+    },
+    {
+      "id": 243,
+      "name": "WP_214923377.1",
+      "identity": 48.387,
+      "coverage": 97.8947368421053,
+      "bitscore": 79.7,
+      "evalue": 6.51e-17,
+      "strand": -1,
+      "start": 23273,
+      "end": 23561,
+      "ipg": "455666106",
+      "cluster_id": 37
+    },
+    {
+      "id": 244,
+      "name": "WP_214923375.1",
+      "identity": 37.474,
+      "coverage": 98.7525987525988,
+      "bitscore": 282.0,
+      "evalue": 7.15e-86,
+      "strand": -1,
+      "start": 23535,
+      "end": 24978,
+      "ipg": "455662055",
+      "cluster_id": 37
+    },
+    {
+      "id": 245,
+      "name": "WP_214923372.1",
+      "identity": 50.0,
+      "coverage": 98.7234042553192,
+      "bitscore": 222.0,
+      "evalue": 5.73e-69,
+      "strand": -1,
+      "start": 25016,
+      "end": 25757,
+      "ipg": "455663257",
+      "cluster_id": 37
+    },
+    {
+      "id": 246,
+      "name": "MBT2617762.1",
+      "identity": 35.789,
+      "coverage": 96.9387755102041,
+      "bitscore": 73.6,
+      "evalue": 1.35e-14,
+      "strand": -1,
+      "start": 22489,
+      "end": 22747,
+      "ipg": "455665912",
+      "cluster_id": 38
+    },
+    {
+      "id": 247,
+      "name": "MBT2617763.1",
+      "identity": 36.134,
+      "coverage": 68.7861271676301,
+      "bitscore": 80.9,
+      "evalue": 2.2e-15,
+      "strand": -1,
+      "start": 22761,
+      "end": 23274,
+      "ipg": "455663761",
+      "cluster_id": 38
+    },
+    {
+      "id": 248,
+      "name": "MBT2617764.1",
+      "identity": 48.387,
+      "coverage": 97.8947368421053,
+      "bitscore": 79.7,
+      "evalue": 6.51e-17,
+      "strand": -1,
+      "start": 23273,
+      "end": 23561,
+      "ipg": "455666106",
+      "cluster_id": 38
+    },
+    {
+      "id": 249,
+      "name": "MBT2617765.1",
+      "identity": 37.474,
+      "coverage": 98.7525987525988,
+      "bitscore": 282.0,
+      "evalue": 7.15e-86,
+      "strand": -1,
+      "start": 23535,
+      "end": 24978,
+      "ipg": "455662055",
+      "cluster_id": 38
+    },
+    {
+      "id": 250,
+      "name": "MBT2617766.1",
+      "identity": 50.0,
+      "coverage": 98.7234042553192,
+      "bitscore": 222.0,
+      "evalue": 5.73e-69,
+      "strand": -1,
+      "start": 25016,
+      "end": 25757,
+      "ipg": "455663257",
+      "cluster_id": 38
+    },
+    {
+      "id": 251,
+      "name": "WP_214923372.1",
+      "identity": 50.0,
+      "coverage": 98.7234042553192,
+      "bitscore": 222.0,
+      "evalue": 5.73e-69,
+      "strand": 1,
+      "start": 13359,
+      "end": 14100,
+      "ipg": "455663257",
+      "cluster_id": 39
+    },
+    {
+      "id": 252,
+      "name": "WP_214923375.1",
+      "identity": 37.474,
+      "coverage": 98.7525987525988,
+      "bitscore": 282.0,
+      "evalue": 7.15e-86,
+      "strand": 1,
+      "start": 14138,
+      "end": 15581,
+      "ipg": "455662055",
+      "cluster_id": 39
+    },
+    {
+      "id": 253,
+      "name": "WP_214923377.1",
+      "identity": 48.387,
+      "coverage": 97.8947368421053,
+      "bitscore": 79.7,
+      "evalue": 6.51e-17,
+      "strand": 1,
+      "start": 15555,
+      "end": 15843,
+      "ipg": "455666106",
+      "cluster_id": 39
+    },
+    {
+      "id": 254,
+      "name": "WP_251029213.1",
+      "identity": 36.134,
+      "coverage": 68.7861271676301,
+      "bitscore": 80.9,
+      "evalue": 7.59e-16,
+      "strand": 1,
+      "start": 15974,
+      "end": 16355,
+      "ipg": "557483595",
+      "cluster_id": 39
+    },
+    {
+      "id": 255,
+      "name": "WP_214923382.1",
+      "identity": 35.789,
+      "coverage": 96.9387755102041,
+      "bitscore": 73.6,
+      "evalue": 1.35e-14,
+      "strand": 1,
+      "start": 16369,
+      "end": 16627,
+      "ipg": "455665912",
+      "cluster_id": 39
+    },
+    {
+      "id": 256,
+      "name": "MBT2629583.1",
+      "identity": 50.0,
+      "coverage": 98.7234042553192,
+      "bitscore": 222.0,
+      "evalue": 5.73e-69,
+      "strand": 1,
+      "start": 13359,
+      "end": 14100,
+      "ipg": "455663257",
+      "cluster_id": 40
+    },
+    {
+      "id": 257,
+      "name": "MBT2629584.1",
+      "identity": 37.474,
+      "coverage": 98.7525987525988,
+      "bitscore": 282.0,
+      "evalue": 7.15e-86,
+      "strand": 1,
+      "start": 14138,
+      "end": 15581,
+      "ipg": "455662055",
+      "cluster_id": 40
+    },
+    {
+      "id": 258,
+      "name": "MBT2629585.1",
+      "identity": 48.387,
+      "coverage": 97.8947368421053,
+      "bitscore": 79.7,
+      "evalue": 6.51e-17,
+      "strand": 1,
+      "start": 15555,
+      "end": 15843,
+      "ipg": "455666106",
+      "cluster_id": 40
+    },
+    {
+      "id": 259,
+      "name": "MBT2629586.1",
+      "identity": 36.134,
+      "coverage": 68.7861271676301,
+      "bitscore": 80.9,
+      "evalue": 2.2e-15,
+      "strand": 1,
+      "start": 15842,
+      "end": 16355,
+      "ipg": "455663761",
+      "cluster_id": 40
+    },
+    {
+      "id": 260,
+      "name": "MBT2629587.1",
+      "identity": 35.789,
+      "coverage": 96.9387755102041,
+      "bitscore": 73.6,
+      "evalue": 1.35e-14,
+      "strand": 1,
+      "start": 16369,
+      "end": 16627,
+      "ipg": "455665912",
+      "cluster_id": 40
+    },
+    {
+      "id": 261,
+      "name": "MBT2650021.1",
+      "identity": 43.939,
+      "coverage": 67.3469387755102,
+      "bitscore": 71.2,
+      "evalue": 1.34e-13,
+      "strand": -1,
+      "start": 17929,
+      "end": 18187,
+      "ipg": "455693205",
+      "cluster_id": 41
+    },
+    {
+      "id": 262,
+      "name": "MBT2650022.1",
+      "identity": 37.815,
+      "coverage": 68.7861271676301,
+      "bitscore": 81.6,
+      "evalue": 8.74e-16,
+      "strand": -1,
+      "start": 18201,
+      "end": 18717,
+      "ipg": "455692338",
+      "cluster_id": 41
+    },
+    {
+      "id": 263,
+      "name": "MBT2650023.1",
+      "identity": 48.387,
+      "coverage": 97.8947368421053,
+      "bitscore": 79.3,
+      "evalue": 8.94e-17,
+      "strand": -1,
+      "start": 18716,
+      "end": 19004,
+      "ipg": "455693961",
+      "cluster_id": 41
+    },
+    {
+      "id": 264,
+      "name": "MBT2650024.1",
+      "identity": 37.263,
+      "coverage": 98.7525987525988,
+      "bitscore": 286.0,
+      "evalue": 3.88e-87,
+      "strand": -1,
+      "start": 18978,
+      "end": 20421,
+      "ipg": "455692769",
+      "cluster_id": 41
+    },
+    {
+      "id": 265,
+      "name": "MBT2650025.1",
+      "identity": 49.573,
+      "coverage": 98.7234042553192,
+      "bitscore": 221.0,
+      "evalue": 1.51e-68,
+      "strand": -1,
+      "start": 20459,
+      "end": 21200,
+      "ipg": "455691690",
+      "cluster_id": 41
+    },
+    {
+      "id": 266,
+      "name": "WP_208220457.1",
+      "identity": 44.595,
+      "coverage": 75.5102040816327,
+      "bitscore": 71.2,
+      "evalue": 1.22e-13,
+      "strand": -1,
+      "start": 11884,
+      "end": 12148,
+      "ipg": "421057615",
+      "cluster_id": 42
+    },
+    {
+      "id": 267,
+      "name": "WP_208220458.1",
+      "identity": 35.398,
+      "coverage": 65.3179190751445,
+      "bitscore": 64.7,
+      "evalue": 2.84e-09,
+      "strand": -1,
+      "start": 12128,
+      "end": 12659,
+      "ipg": "421058461",
+      "cluster_id": 42
+    },
+    {
+      "id": 268,
+      "name": "WP_146547756.1",
+      "identity": 35.0,
+      "coverage": 100.0,
+      "bitscore": 64.7,
+      "evalue": 5.91e-11,
+      "strand": -1,
+      "start": 12658,
+      "end": 12979,
+      "ipg": "267088332",
+      "cluster_id": 42
+    },
+    {
+      "id": 269,
+      "name": "WP_243881231.1",
+      "identity": 45.854,
+      "coverage": 86.8085106382979,
+      "bitscore": 174.0,
+      "evalue": 3.84e-50,
+      "strand": -1,
+      "start": 14356,
+      "end": 15037,
+      "ipg": "541230178",
+      "cluster_id": 42
+    },
+    {
+      "id": 270,
+      "name": "MBO2535714.1",
+      "identity": 44.595,
+      "coverage": 75.5102040816327,
+      "bitscore": 71.2,
+      "evalue": 1.22e-13,
+      "strand": -1,
+      "start": 11884,
+      "end": 12148,
+      "ipg": "421057615",
+      "cluster_id": 43
+    },
+    {
+      "id": 271,
+      "name": "MBO2535715.1",
+      "identity": 35.398,
+      "coverage": 65.3179190751445,
+      "bitscore": 64.7,
+      "evalue": 2.84e-09,
+      "strand": -1,
+      "start": 12128,
+      "end": 12659,
+      "ipg": "421058461",
+      "cluster_id": 43
+    },
+    {
+      "id": 272,
+      "name": "MBO2535716.1",
+      "identity": 35.0,
+      "coverage": 100.0,
+      "bitscore": 64.7,
+      "evalue": 5.91e-11,
+      "strand": -1,
+      "start": 12658,
+      "end": 12979,
+      "ipg": "267088332",
+      "cluster_id": 43
+    },
+    {
+      "id": 273,
+      "name": "MBO2535718.1",
+      "identity": 45.923,
+      "coverage": 98.7234042553192,
+      "bitscore": 189.0,
+      "evalue": 7.22e-56,
+      "strand": -1,
+      "start": 14356,
+      "end": 15103,
+      "ipg": "267088254",
+      "cluster_id": 43
+    },
+    {
+      "id": 274,
+      "name": "WP_244950951.1",
+      "identity": 44.934,
+      "coverage": 96.1702127659574,
+      "bitscore": 179.0,
+      "evalue": 3.11e-52,
+      "strand": 1,
+      "start": 395066,
+      "end": 395795,
+      "ipg": "543083170",
+      "cluster_id": 44
+    },
+    {
+      "id": 275,
+      "name": "WP_146547756.1",
+      "identity": 35.0,
+      "coverage": 100.0,
+      "bitscore": 64.7,
+      "evalue": 5.91e-11,
+      "strand": 1,
+      "start": 397172,
+      "end": 397493,
+      "ipg": "267088332",
+      "cluster_id": 44
+    },
+    {
+      "id": 276,
+      "name": "WP_146547757.1",
+      "identity": 34.513,
+      "coverage": 65.3179190751445,
+      "bitscore": 64.3,
+      "evalue": 3.83e-09,
+      "strand": 1,
+      "start": 397492,
+      "end": 398023,
+      "ipg": "267088389",
+      "cluster_id": 44
+    },
+    {
+      "id": 277,
+      "name": "WP_208220457.1",
+      "identity": 44.595,
+      "coverage": 75.5102040816327,
+      "bitscore": 71.2,
+      "evalue": 1.22e-13,
+      "strand": 1,
+      "start": 398003,
+      "end": 398267,
+      "ipg": "421057615",
+      "cluster_id": 44
+    },
+    {
+      "id": 278,
+      "name": "WP_208220457.1",
+      "identity": 44.595,
+      "coverage": 75.5102040816327,
+      "bitscore": 71.2,
+      "evalue": 1.22e-13,
+      "strand": -1,
+      "start": 63863,
+      "end": 64127,
+      "ipg": "421057615",
+      "cluster_id": 45
+    },
+    {
+      "id": 279,
+      "name": "WP_146553155.1",
+      "identity": 34.513,
+      "coverage": 65.3179190751445,
+      "bitscore": 63.9,
+      "evalue": 6.06e-09,
+      "strand": -1,
+      "start": 64107,
+      "end": 64638,
+      "ipg": "267093613",
+      "cluster_id": 45
+    },
+    {
+      "id": 280,
+      "name": "WP_146547756.1",
+      "identity": 35.0,
+      "coverage": 100.0,
+      "bitscore": 64.7,
+      "evalue": 5.91e-11,
+      "strand": -1,
+      "start": 64637,
+      "end": 64958,
+      "ipg": "267088332",
+      "cluster_id": 45
+    },
+    {
+      "id": 281,
+      "name": "WP_255473178.1",
+      "identity": 44.934,
+      "coverage": 96.1702127659574,
+      "bitscore": 179.0,
+      "evalue": 3.39e-52,
+      "strand": -1,
+      "start": 66335,
+      "end": 67064,
+      "ipg": "568971484",
+      "cluster_id": 45
+    },
+    {
+      "id": 282,
+      "name": "MCD8077975.1",
+      "identity": 32.515,
+      "coverage": 94.2196531791908,
+      "bitscore": 65.1,
+      "evalue": 1.7e-09,
+      "strand": 1,
+      "start": 720,
+      "end": 1227,
+      "ipg": "510456329",
+      "cluster_id": 46
+    },
+    {
+      "id": 283,
+      "name": "MCD8077976.1",
+      "identity": 56.364,
+      "coverage": 56.1224489795918,
+      "bitscore": 70.9,
+      "evalue": 1.46e-13,
+      "strand": 1,
+      "start": 1323,
+      "end": 1563,
+      "ipg": "510457037",
+      "cluster_id": 46
+    },
+    {
+      "id": 284,
+      "name": "MCD8077979.1",
+      "identity": 37.447,
+      "coverage": 99.1489361702128,
+      "bitscore": 141.0,
+      "evalue": 3.76e-37,
+      "strand": 1,
+      "start": 3090,
+      "end": 3822,
+      "ipg": "510456134",
+      "cluster_id": 46
+    },
+    {
+      "id": 285,
+      "name": "MBQ2746035.1",
+      "identity": 35.398,
+      "coverage": 65.3179190751445,
+      "bitscore": 69.3,
+      "evalue": 4.64e-11,
+      "strand": 1,
+      "start": 11465,
+      "end": 11954,
+      "ipg": "434141521",
+      "cluster_id": 47
+    },
+    {
+      "id": 286,
+      "name": "MBQ2746036.1",
+      "identity": 52.727,
+      "coverage": 56.1224489795918,
+      "bitscore": 51.6,
+      "evalue": 5.46e-06,
+      "strand": 1,
+      "start": 11993,
+      "end": 12233,
+      "ipg": "434140366",
+      "cluster_id": 47
+    },
+    {
+      "id": 287,
+      "name": "MBQ2746040.1",
+      "identity": 37.712,
+      "coverage": 99.1489361702128,
+      "bitscore": 157.0,
+      "evalue": 2.12e-43,
+      "strand": 1,
+      "start": 15392,
+      "end": 16124,
+      "ipg": "434142285",
+      "cluster_id": 47
+    },
+    {
+      "id": 288,
+      "name": "WP_242586911.1",
+      "identity": 43.062,
+      "coverage": 88.5106382978723,
+      "bitscore": 171.0,
+      "evalue": 3.82e-49,
+      "strand": 1,
+      "start": 6519,
+      "end": 7176,
+      "ipg": "535395363",
+      "cluster_id": 48
+    },
+    {
+      "id": 289,
+      "name": "WP_207113802.1",
+      "identity": 39.506,
+      "coverage": 84.2105263157895,
+      "bitscore": 54.3,
+      "evalue": 8.35e-07,
+      "strand": 1,
+      "start": 8567,
+      "end": 8879,
+      "ipg": "415687877",
+      "cluster_id": 48
+    },
+    {
+      "id": 290,
+      "name": "WP_207113803.1",
+      "identity": 50.0,
+      "coverage": 67.3469387755102,
+      "bitscore": 70.1,
+      "evalue": 2.93e-13,
+      "strand": 1,
+      "start": 9398,
+      "end": 9647,
+      "ipg": "415690145",
+      "cluster_id": 48
+    },
+    {
+      "id": 291,
+      "name": "MBO0441847.1",
+      "identity": 41.88,
+      "coverage": 99.1489361702128,
+      "bitscore": 181.0,
+      "evalue": 1.02e-52,
+      "strand": 1,
+      "start": 6426,
+      "end": 7176,
+      "ipg": "415688844",
+      "cluster_id": 49
+    },
+    {
+      "id": 292,
+      "name": "MBO0441849.1",
+      "identity": 39.506,
+      "coverage": 84.2105263157895,
+      "bitscore": 54.3,
+      "evalue": 8.35e-07,
+      "strand": 1,
+      "start": 8567,
+      "end": 8879,
+      "ipg": "415687877",
+      "cluster_id": 49
+    },
+    {
+      "id": 293,
+      "name": "MBO0441850.1",
+      "identity": 50.0,
+      "coverage": 67.3469387755102,
+      "bitscore": 70.1,
+      "evalue": 2.93e-13,
+      "strand": 1,
+      "start": 9398,
+      "end": 9647,
+      "ipg": "415690145",
+      "cluster_id": 49
+    },
+    {
+      "id": 294,
+      "name": "WP_207694188.1",
+      "identity": 43.939,
+      "coverage": 67.3469387755102,
+      "bitscore": 63.5,
+      "evalue": 1.09e-10,
+      "strand": -1,
+      "start": 103378,
+      "end": 103627,
+      "ipg": "417615461",
+      "cluster_id": 50
+    },
+    {
+      "id": 295,
+      "name": "WP_207694189.1",
+      "identity": 39.286,
+      "coverage": 84.2105263157895,
+      "bitscore": 50.8,
+      "evalue": 1.94e-05,
+      "strand": -1,
+      "start": 104146,
+      "end": 104458,
+      "ipg": "417615299",
+      "cluster_id": 50
+    },
+    {
+      "id": 296,
+      "name": "WP_242700571.1",
+      "identity": 43.062,
+      "coverage": 88.5106382978723,
+      "bitscore": 171.0,
+      "evalue": 3.47e-49,
+      "strand": -1,
+      "start": 105849,
+      "end": 106506,
+      "ipg": "536077841",
+      "cluster_id": 50
+    },
+    {
+      "id": 297,
+      "name": "MBO1352448.1",
+      "identity": 43.939,
+      "coverage": 67.3469387755102,
+      "bitscore": 63.5,
+      "evalue": 1.09e-10,
+      "strand": -1,
+      "start": 103378,
+      "end": 103627,
+      "ipg": "417615461",
+      "cluster_id": 51
+    },
+    {
+      "id": 298,
+      "name": "MBO1352449.1",
+      "identity": 32.773,
+      "coverage": 68.2080924855491,
+      "bitscore": 53.9,
+      "evalue": 2.52e-05,
+      "strand": -1,
+      "start": 103635,
+      "end": 104157,
+      "ipg": "417615570",
+      "cluster_id": 51
+    },
+    {
+      "id": 299,
+      "name": "MBO1352450.1",
+      "identity": 39.286,
+      "coverage": 84.2105263157895,
+      "bitscore": 50.8,
+      "evalue": 1.94e-05,
+      "strand": -1,
+      "start": 104146,
+      "end": 104458,
+      "ipg": "417615299",
+      "cluster_id": 51
+    },
+    {
+      "id": 300,
+      "name": "MBO1352452.1",
+      "identity": 41.88,
+      "coverage": 99.1489361702128,
+      "bitscore": 181.0,
+      "evalue": 8.96e-53,
+      "strand": -1,
+      "start": 105849,
+      "end": 106599,
+      "ipg": "417614971",
+      "cluster_id": 51
+    },
+    {
+      "id": 301,
+      "name": "WP_083625262.1",
+      "identity": 36.681,
+      "coverage": 97.4468085106383,
+      "bitscore": 154.0,
+      "evalue": 2.5e-42,
+      "strand": -1,
+      "start": 22528,
+      "end": 23254,
+      "ipg": "146152770",
+      "cluster_id": 52
+    },
+    {
+      "id": 302,
+      "name": "WP_159435941.1",
+      "identity": 37.5,
+      "coverage": 69.364161849711,
+      "bitscore": 75.5,
+      "evalue": 8e-14,
+      "strand": -1,
+      "start": 28215,
+      "end": 28605,
+      "ipg": "291698162",
+      "cluster_id": 52
+    },
+    {
+      "id": 303,
+      "name": "WP_075681094.1",
+      "identity": 35.556,
+      "coverage": 89.4736842105263,
+      "bitscore": 46.2,
+      "evalue": 0.001,
+      "strand": -1,
+      "start": 28733,
+      "end": 29096,
+      "ipg": "135212853",
+      "cluster_id": 52
+    },
+    {
+      "id": 304,
+      "name": "WP_083625265.1",
+      "identity": 49.18,
+      "coverage": 62.2448979591837,
+      "bitscore": 69.3,
+      "evalue": 5.22e-13,
+      "strand": -1,
+      "start": 29149,
+      "end": 29389,
+      "ipg": "146152785",
+      "cluster_id": 52
+    },
+    {
+      "id": 305,
+      "name": "OLR38538.1",
+      "identity": 37.118,
+      "coverage": 97.4468085106383,
+      "bitscore": 156.0,
+      "evalue": 4.49e-43,
+      "strand": -1,
+      "start": 22528,
+      "end": 23239,
+      "ipg": "135212926",
+      "cluster_id": 53
+    },
+    {
+      "id": 306,
+      "name": "OLR38355.1",
+      "identity": 33.333,
+      "coverage": 91.9075144508671,
+      "bitscore": 77.0,
+      "evalue": 6.72e-14,
+      "strand": -1,
+      "start": 28215,
+      "end": 28737,
+      "ipg": "135212813",
+      "cluster_id": 53
+    },
+    {
+      "id": 307,
+      "name": "OLR38356.1",
+      "identity": 35.556,
+      "coverage": 89.4736842105263,
+      "bitscore": 46.2,
+      "evalue": 0.001,
+      "strand": -1,
+      "start": 28733,
+      "end": 29096,
+      "ipg": "135212853",
+      "cluster_id": 53
+    },
+    {
+      "id": 308,
+      "name": "OLR38539.1",
+      "identity": 49.18,
+      "coverage": 62.2448979591837,
+      "bitscore": 68.6,
+      "evalue": 7.3e-13,
+      "strand": -1,
+      "start": 29149,
+      "end": 29350,
+      "ipg": "135212932",
+      "cluster_id": 53
+    },
+    {
+      "id": 309,
+      "name": "MCI5918386.1",
+      "identity": 49.18,
+      "coverage": 62.2448979591837,
+      "bitscore": 69.3,
+      "evalue": 5.22e-13,
+      "strand": 1,
+      "start": 20032,
+      "end": 20272,
+      "ipg": "146152785",
+      "cluster_id": 54
+    },
+    {
+      "id": 310,
+      "name": "MCI5918387.1",
+      "identity": 35.556,
+      "coverage": 89.4736842105263,
+      "bitscore": 46.2,
+      "evalue": 0.001,
+      "strand": 1,
+      "start": 20325,
+      "end": 20688,
+      "ipg": "135212853",
+      "cluster_id": 54
+    },
+    {
+      "id": 311,
+      "name": "MCI5918388.1",
+      "identity": 37.5,
+      "coverage": 69.364161849711,
+      "bitscore": 75.5,
+      "evalue": 8e-14,
+      "strand": 1,
+      "start": 20816,
+      "end": 21206,
+      "ipg": "291698162",
+      "cluster_id": 54
+    },
+    {
+      "id": 312,
+      "name": "MCI5918392.1",
+      "identity": 36.681,
+      "coverage": 97.4468085106383,
+      "bitscore": 154.0,
+      "evalue": 2.5e-42,
+      "strand": 1,
+      "start": 24187,
+      "end": 24913,
+      "ipg": "146152770",
+      "cluster_id": 54
+    },
+    {
+      "id": 313,
+      "name": "WP_185394177.1",
+      "identity": 47.761,
+      "coverage": 68.3673469387755,
+      "bitscore": 69.3,
+      "evalue": 7.89e-13,
+      "strand": -1,
+      "start": 149199,
+      "end": 149472,
+      "ipg": "351584979",
+      "cluster_id": 55
+    },
+    {
+      "id": 314,
+      "name": "WP_185394178.1",
+      "identity": 34.821,
+      "coverage": 64.7398843930636,
+      "bitscore": 65.1,
+      "evalue": 1.73e-09,
+      "strand": -1,
+      "start": 149487,
+      "end": 149985,
+      "ipg": "351586001",
+      "cluster_id": 55
+    },
+    {
+      "id": 315,
+      "name": "WP_185394181.1",
+      "identity": 39.904,
+      "coverage": 88.5106382978723,
+      "bitscore": 148.0,
+      "evalue": 1.04e-39,
+      "strand": -1,
+      "start": 151710,
+      "end": 152529,
+      "ipg": "351585763",
+      "cluster_id": 55
+    },
+    {
+      "id": 316,
+      "name": "WP_054860340.1",
+      "identity": 50.427,
+      "coverage": 98.7234042553192,
+      "bitscore": 223.0,
+      "evalue": 1.7e-69,
+      "strand": 1,
+      "start": 220816,
+      "end": 221545,
+      "ipg": "93922314",
+      "cluster_id": 56
+    },
+    {
+      "id": 317,
+      "name": "WP_109985375.1",
+      "identity": 37.474,
+      "coverage": 98.7525987525988,
+      "bitscore": 335.0,
+      "evalue": 2.06e-106,
+      "strand": 1,
+      "start": 221582,
+      "end": 223025,
+      "ipg": "189014008",
+      "cluster_id": 56
+    },
+    {
+      "id": 318,
+      "name": "WP_109985376.1",
+      "identity": 55.789,
+      "coverage": 98.9473684210526,
+      "bitscore": 97.4,
+      "evalue": 6.68e-24,
+      "strand": 1,
+      "start": 222999,
+      "end": 223287,
+      "ipg": "189013992",
+      "cluster_id": 56
+    },
+    {
+      "id": 319,
+      "name": "WP_109985377.1",
+      "identity": 33.929,
+      "coverage": 92.485549132948,
+      "bitscore": 99.0,
+      "evalue": 2.18e-22,
+      "strand": 1,
+      "start": 223283,
+      "end": 223811,
+      "ipg": "189013984",
+      "cluster_id": 56
+    },
+    {
+      "id": 320,
+      "name": "WP_054788405.1",
+      "identity": 51.429,
+      "coverage": 71.4285714285714,
+      "bitscore": 68.9,
+      "evalue": 8.26e-13,
+      "strand": 1,
+      "start": 223816,
+      "end": 224074,
+      "ipg": "93832614",
+      "cluster_id": 56
+    },
+    {
+      "id": 321,
+      "name": "WP_217587597.1",
+      "identity": 49.145,
+      "coverage": 98.7234042553192,
+      "bitscore": 230.0,
+      "evalue": 3.55e-72,
+      "strand": 1,
+      "start": 158567,
+      "end": 159299,
+      "ipg": "467475010",
+      "cluster_id": 57
+    },
+    {
+      "id": 322,
+      "name": "WP_217587598.1",
+      "identity": 37.684,
+      "coverage": 98.7525987525988,
+      "bitscore": 318.0,
+      "evalue": 1.68e-99,
+      "strand": 1,
+      "start": 159327,
+      "end": 160764,
+      "ipg": "467475047",
+      "cluster_id": 57
+    },
+    {
+      "id": 323,
+      "name": "WP_217587599.1",
+      "identity": 48.936,
+      "coverage": 98.9473684210526,
+      "bitscore": 93.6,
+      "evalue": 2.12e-22,
+      "strand": 1,
+      "start": 160747,
+      "end": 161035,
+      "ipg": "467474992",
+      "cluster_id": 57
+    },
+    {
+      "id": 324,
+      "name": "WP_217587601.1",
+      "identity": 57.627,
+      "coverage": 60.2040816326531,
+      "bitscore": 65.9,
+      "evalue": 1.6e-11,
+      "strand": 1,
+      "start": 161565,
+      "end": 161811,
+      "ipg": "467475069",
+      "cluster_id": 57
+    },
+    {
+      "id": 325,
+      "name": "WP_029069897.1",
+      "identity": 33.75,
+      "coverage": 99.5744680851064,
+      "bitscore": 143.0,
+      "evalue": 4.22e-38,
+      "strand": -1,
+      "start": 13440,
+      "end": 14151,
+      "ipg": "57134152",
+      "cluster_id": 58
+    },
+    {
+      "id": 326,
+      "name": "WP_029069895.1",
+      "identity": 31.356,
+      "coverage": 68.2080924855491,
+      "bitscore": 51.6,
+      "evalue": 0.000219,
+      "strand": -1,
+      "start": 14501,
+      "end": 15014,
+      "ipg": "57134150",
+      "cluster_id": 58
+    },
+    {
+      "id": 327,
+      "name": "WP_029069893.1",
+      "identity": 47.458,
+      "coverage": 60.2040816326531,
+      "bitscore": 64.3,
+      "evalue": 4.05e-11,
+      "strand": -1,
+      "start": 15374,
+      "end": 15596,
+      "ipg": "57134148",
+      "cluster_id": 58
+    },
+    {
+      "id": 328,
+      "name": "WP_029069897.1",
+      "identity": 33.75,
+      "coverage": 99.5744680851064,
+      "bitscore": 143.0,
+      "evalue": 4.22e-38,
+      "strand": -1,
+      "start": 11992,
+      "end": 12703,
+      "ipg": "57134152",
+      "cluster_id": 59
+    },
+    {
+      "id": 329,
+      "name": "WP_029069895.1",
+      "identity": 31.356,
+      "coverage": 68.2080924855491,
+      "bitscore": 51.6,
+      "evalue": 0.000219,
+      "strand": -1,
+      "start": 13053,
+      "end": 13566,
+      "ipg": "57134150",
+      "cluster_id": 59
+    },
+    {
+      "id": 330,
+      "name": "WP_029069893.1",
+      "identity": 47.458,
+      "coverage": 60.2040816326531,
+      "bitscore": 64.3,
+      "evalue": 4.05e-11,
+      "strand": -1,
+      "start": 13926,
+      "end": 14148,
+      "ipg": "57134148",
+      "cluster_id": 59
+    },
+    {
+      "id": 331,
+      "name": "WP_029069893.1",
+      "identity": 47.458,
+      "coverage": 60.2040816326531,
+      "bitscore": 64.3,
+      "evalue": 4.05e-11,
+      "strand": 1,
+      "start": 80464,
+      "end": 80686,
+      "ipg": "57134148",
+      "cluster_id": 60
+    },
+    {
+      "id": 332,
+      "name": "WP_029069895.1",
+      "identity": 31.356,
+      "coverage": 68.2080924855491,
+      "bitscore": 51.6,
+      "evalue": 0.000219,
+      "strand": 1,
+      "start": 81046,
+      "end": 81559,
+      "ipg": "57134150",
+      "cluster_id": 60
+    },
+    {
+      "id": 333,
+      "name": "WP_029069897.1",
+      "identity": 33.75,
+      "coverage": 99.5744680851064,
+      "bitscore": 143.0,
+      "evalue": 4.22e-38,
+      "strand": 1,
+      "start": 81909,
+      "end": 82620,
+      "ipg": "57134152",
+      "cluster_id": 60
+    },
+    {
+      "id": 334,
+      "name": "WP_025027078.1",
+      "identity": 55.0,
+      "coverage": 61.2244897959184,
+      "bitscore": 63.5,
+      "evalue": 1.38e-10,
+      "strand": -1,
+      "start": 6404,
+      "end": 6662,
+      "ipg": "52541267",
+      "cluster_id": 61
+    },
+    {
+      "id": 335,
+      "name": "WP_025027079.1",
+      "identity": 52.239,
+      "coverage": 68.3673469387755,
+      "bitscore": 63.9,
+      "evalue": 1.01e-10,
+      "strand": -1,
+      "start": 6775,
+      "end": 7033,
+      "ipg": "52541268",
+      "cluster_id": 61
+    },
+    {
+      "id": 336,
+      "name": "WP_025027080.1",
+      "identity": 31.548,
+      "coverage": 96.5317919075144,
+      "bitscore": 90.5,
+      "evalue": 4.58e-19,
+      "strand": -1,
+      "start": 7016,
+      "end": 7550,
+      "ipg": "52541269",
+      "cluster_id": 61
+    },
+    {
+      "id": 337,
+      "name": "WP_025027081.1",
+      "identity": 41.053,
+      "coverage": 100.0,
+      "bitscore": 62.0,
+      "evalue": 5.43e-10,
+      "strand": -1,
+      "start": 7553,
+      "end": 7838,
+      "ipg": "52541270",
+      "cluster_id": 61
+    },
+    {
+      "id": 338,
+      "name": "WP_025027082.1",
+      "identity": 36.193,
+      "coverage": 77.5467775467775,
+      "bitscore": 204.0,
+      "evalue": 4.42e-57,
+      "strand": -1,
+      "start": 7812,
+      "end": 8958,
+      "ipg": "52541271",
+      "cluster_id": 61
+    },
+    {
+      "id": 339,
+      "name": "WP_025027084.1",
+      "identity": 46.154,
+      "coverage": 98.2978723404255,
+      "bitscore": 201.0,
+      "evalue": 9.86e-61,
+      "strand": -1,
+      "start": 9236,
+      "end": 9968,
+      "ipg": "52541273",
+      "cluster_id": 61
+    },
+    {
+      "id": 340,
+      "name": "WP_016428126.1",
+      "identity": 56.863,
+      "coverage": 52.0408163265306,
+      "bitscore": 60.8,
+      "evalue": 1.53e-09,
+      "strand": -1,
+      "start": 1616755,
+      "end": 1617016,
+      "ipg": "36810027",
+      "cluster_id": 62
+    },
+    {
+      "id": 341,
+      "name": "WP_016428128.1",
+      "identity": 43.529,
+      "coverage": 88.4210526315789,
+      "bitscore": 70.1,
+      "evalue": 5.5e-13,
+      "strand": -1,
+      "start": 1617536,
+      "end": 1617851,
+      "ipg": "36810029",
+      "cluster_id": 62
+    },
+    {
+      "id": 342,
+      "name": "WP_016428130.1",
+      "identity": 44.206,
+      "coverage": 99.1489361702128,
+      "bitscore": 202.0,
+      "evalue": 3.76e-61,
+      "strand": -1,
+      "start": 1619230,
+      "end": 1619974,
+      "ipg": "36810031",
+      "cluster_id": 62
+    },
+    {
+      "id": 343,
+      "name": "EPD52264.1",
+      "identity": 56.863,
+      "coverage": 52.0408163265306,
+      "bitscore": 60.8,
+      "evalue": 1.53e-09,
+      "strand": -1,
+      "start": 307921,
+      "end": 308182,
+      "ipg": "36810027",
+      "cluster_id": 63
+    },
+    {
+      "id": 344,
+      "name": "EPD52265.1",
+      "identity": 31.515,
+      "coverage": 94.2196531791908,
+      "bitscore": 66.2,
+      "evalue": 7.09e-10,
+      "strand": -1,
+      "start": 308183,
+      "end": 308699,
+      "ipg": "36810028",
+      "cluster_id": 63
+    },
+    {
+      "id": 345,
+      "name": "EPD52266.1",
+      "identity": 43.529,
+      "coverage": 88.4210526315789,
+      "bitscore": 70.1,
+      "evalue": 5.5e-13,
+      "strand": -1,
+      "start": 308702,
+      "end": 309017,
+      "ipg": "36810029",
+      "cluster_id": 63
+    },
+    {
+      "id": 346,
+      "name": "EPD52268.1",
+      "identity": 44.206,
+      "coverage": 99.1489361702128,
+      "bitscore": 202.0,
+      "evalue": 3.76e-61,
+      "strand": -1,
+      "start": 310396,
+      "end": 311140,
+      "ipg": "36810031",
+      "cluster_id": 63
+    },
+    {
+      "id": 347,
+      "name": "WP_044822105.1",
+      "identity": 42.188,
+      "coverage": 98.4615384615385,
+      "bitscore": 60.1,
+      "evalue": 6e-10,
+      "strand": -1,
+      "start": 20286,
+      "end": 20493,
+      "ipg": "77793400",
+      "cluster_id": 64
+    },
+    {
+      "id": 348,
+      "name": "WP_003180000.1",
+      "identity": 33.898,
+      "coverage": 60.2040816326531,
+      "bitscore": 52.8,
+      "evalue": 1.72e-06,
+      "strand": 1,
+      "start": 21042,
+      "end": 21255,
+      "ipg": "3644228",
+      "cluster_id": 64
+    },
+    {
+      "id": 349,
+      "name": "WP_003180002.1",
+      "identity": 38.333,
+      "coverage": 74.468085106383,
+      "bitscore": 123.0,
+      "evalue": 3.08e-30,
+      "strand": 1,
+      "start": 21362,
+      "end": 22109,
+      "ipg": "3642382",
+      "cluster_id": 64
+    },
+    {
+      "id": 350,
+      "name": "WP_130180316.1",
+      "identity": 40.58,
+      "coverage": 67.3469387755102,
+      "bitscore": 48.5,
+      "evalue": 0.000107,
+      "strand": -1,
+      "start": 1620870,
+      "end": 1621134,
+      "ipg": "233778800",
+      "cluster_id": 65
+    },
+    {
+      "id": 351,
+      "name": "WP_130180317.1",
+      "identity": 32.895,
+      "coverage": 86.7052023121387,
+      "bitscore": 55.5,
+      "evalue": 9.98e-06,
+      "strand": -1,
+      "start": 1621182,
+      "end": 1621719,
+      "ipg": "233778770",
+      "cluster_id": 65
+    },
+    {
+      "id": 352,
+      "name": "WP_130180320.1",
+      "identity": 39.224,
+      "coverage": 97.8723404255319,
+      "bitscore": 175.0,
+      "evalue": 1.64e-50,
+      "strand": -1,
+      "start": 1623467,
+      "end": 1624190,
+      "ipg": "233778806",
+      "cluster_id": 65
+    },
+    {
+      "id": 353,
+      "name": "WP_231341125.1",
+      "identity": 31.111,
+      "coverage": 93.6842105263158,
+      "bitscore": 50.1,
+      "evalue": 3.51e-05,
+      "strand": -1,
+      "start": 2350537,
+      "end": 2350855,
+      "ipg": "508514395",
+      "cluster_id": 66
+    },
+    {
+      "id": 354,
+      "name": "WP_231341127.1",
+      "identity": 36.53,
+      "coverage": 93.1914893617021,
+      "bitscore": 156.0,
+      "evalue": 2.68e-43,
+      "strand": -1,
+      "start": 2352266,
+      "end": 2352983,
+      "ipg": "508510577",
+      "cluster_id": 66
+    },
+    {
+      "id": 355,
+      "name": "WP_253467152.1",
+      "identity": 44.068,
+      "coverage": 60.2040816326531,
+      "bitscore": 47.8,
+      "evalue": 0.000254,
+      "strand": -1,
+      "start": 2353053,
+      "end": 2353344,
+      "ipg": "562574626",
+      "cluster_id": 66
+    },
+    {
+      "id": 356,
+      "name": "MCP1412973.1",
+      "identity": 31.111,
+      "coverage": 93.6842105263158,
+      "bitscore": 50.1,
+      "evalue": 3.51e-05,
+      "strand": -1,
+      "start": 2350537,
+      "end": 2350855,
+      "ipg": "508514395",
+      "cluster_id": 67
+    },
+    {
+      "id": 357,
+      "name": "MCP1412975.1",
+      "identity": 38.889,
+      "coverage": 61.2765957446808,
+      "bitscore": 114.0,
+      "evalue": 8.01e-28,
+      "strand": -1,
+      "start": 2352266,
+      "end": 2352755,
+      "ipg": "562575925",
+      "cluster_id": 67
+    },
+    {
+      "id": 358,
+      "name": "MCP1412976.1",
+      "identity": 44.068,
+      "coverage": 60.2040816326531,
+      "bitscore": 47.8,
+      "evalue": 0.000254,
+      "strand": -1,
+      "start": 2353053,
+      "end": 2353344,
+      "ipg": "562574626",
+      "cluster_id": 67
+    }
+  ],
+  "clusters": [
+    {
+      "id": 0,
+      "organism_name": "Staphylococcus pseudintermedius",
+      "organism_strain": "14S02793-1",
+      "scaffold": "MWUZ01000023.1",
+      "start": 2400,
+      "end": 7670,
+      "number": 1,
+      "score": 12.1846,
+      "hits": [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          6
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "organism_name": "Staphylococcus pseudintermedius",
+      "organism_strain": "14S02793-1",
+      "scaffold": "NZ_MWUZ01000023.1",
+      "start": 2400,
+      "end": 7670,
+      "number": 2,
+      "score": 10.1641,
+      "hits": [
+        [
+          10
+        ],
+        [
+          9
+        ],
+        [
+          8
+        ],
+        [
+          13
+        ],
+        [
+          12
+        ],
+        [
+          14
+        ],
+        [
+          11
+        ],
+        []
+      ]
+    },
+    {
+      "id": 2,
+      "organism_name": "Staphylococcus intermedius",
+      "organism_strain": "NCTC 11048",
+      "scaffold": "NZ_CAIB01000032.1",
+      "start": 3501,
+      "end": 8213,
+      "number": 3,
+      "score": 10.1726,
+      "hits": [
+        [
+          17
+        ],
+        [
+          16
+        ],
+        [
+          15
+        ],
+        [
+          20
+        ],
+        [
+          19
+        ],
+        [
+          21
+        ],
+        [
+          18
+        ],
+        []
+      ]
+    },
+    {
+      "id": 3,
+      "organism_name": "Staphylococcus intermedius",
+      "organism_strain": "NCTC 11048",
+      "scaffold": "NZ_PPQH01000094.1",
+      "start": 0,
+      "end": 2837,
+      "number": 4,
+      "score": 9.113,
+      "hits": [
+        [
+          25
+        ],
+        [
+          26
+        ],
+        [
+          27
+        ],
+        [],
+        [
+          22
+        ],
+        [],
+        [
+          23
+        ],
+        [
+          24
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "organism_name": "Staphylococcus intermedius",
+      "organism_strain": "NCTC 11048",
+      "scaffold": "NZ_UHDP01000001.1",
+      "start": 83029,
+      "end": 87741,
+      "number": 5,
+      "score": 10.1726,
+      "hits": [
+        [
+          32
+        ],
+        [
+          33
+        ],
+        [
+          34
+        ],
+        [
+          29
+        ],
+        [
+          30
+        ],
+        [
+          28
+        ],
+        [
+          31
+        ],
+        []
+      ]
+    },
+    {
+      "id": 5,
+      "organism_name": "Staphylococcus intermedius",
+      "organism_strain": "NCTC 11048",
+      "scaffold": "UHDP01000001.1",
+      "start": 83029,
+      "end": 87741,
+      "number": 6,
+      "score": 12.1907,
+      "hits": [
+        [
+          40
+        ],
+        [
+          41
+        ],
+        [
+          42
+        ],
+        [
+          36
+        ],
+        [
+          37
+        ],
+        [
+          35
+        ],
+        [
+          38
+        ],
+        [
+          39
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "organism_name": "Staphylococcus intermedius",
+      "organism_strain": "NCTC 11048",
+      "scaffold": "PPQH01000094.1",
+      "start": 0,
+      "end": 2837,
+      "number": 7,
+      "score": 9.1137,
+      "hits": [
+        [
+          46
+        ],
+        [
+          47
+        ],
+        [
+          48
+        ],
+        [],
+        [
+          43
+        ],
+        [],
+        [
+          44
+        ],
+        [
+          45
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "organism_name": "Staphylococcus xylosus",
+      "organism_strain": "",
+      "scaffold": "SVAA01000041.1",
+      "start": 10236,
+      "end": 14947,
+      "number": 8,
+      "score": 10.1869,
+      "hits": [
+        [
+          51
+        ],
+        [
+          50
+        ],
+        [
+          49
+        ],
+        [
+          54
+        ],
+        [
+          53
+        ],
+        [
+          55
+        ],
+        [],
+        [
+          52
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "organism_name": "Staphylococcus hominis",
+      "organism_strain": "1137_SHAE",
+      "scaffold": "NZ_JWBV01000020.1",
+      "start": 613,
+      "end": 5318,
+      "number": 9,
+      "score": 12.19111,
+      "hits": [
+        [
+          61
+        ],
+        [
+          62
+        ],
+        [
+          63
+        ],
+        [
+          57
+        ],
+        [
+          58
+        ],
+        [
+          56
+        ],
+        [
+          59
+        ],
+        [
+          60
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC1",
+      "scaffold": "NZ_JACEWG010000021.1",
+      "start": 7685,
+      "end": 12394,
+      "number": 10,
+      "score": 10.1708,
+      "hits": [
+        [
+          66
+        ],
+        [
+          65
+        ],
+        [
+          64
+        ],
+        [
+          69
+        ],
+        [
+          68
+        ],
+        [
+          70
+        ],
+        [
+          67
+        ],
+        []
+      ]
+    },
+    {
+      "id": 10,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC2",
+      "scaffold": "NZ_JACEWH010000021.1",
+      "start": 6091,
+      "end": 10036,
+      "number": 11,
+      "score": 9.1453,
+      "hits": [
+        [
+          73
+        ],
+        [
+          72
+        ],
+        [
+          71
+        ],
+        [
+          76
+        ],
+        [
+          75
+        ],
+        [],
+        [
+          74
+        ],
+        []
+      ]
+    },
+    {
+      "id": 11,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC3",
+      "scaffold": "NZ_JACEWI010000022.1",
+      "start": 7685,
+      "end": 12394,
+      "number": 12,
+      "score": 10.1708,
+      "hits": [
+        [
+          79
+        ],
+        [
+          78
+        ],
+        [
+          77
+        ],
+        [
+          82
+        ],
+        [
+          81
+        ],
+        [
+          83
+        ],
+        [
+          80
+        ],
+        []
+      ]
+    },
+    {
+      "id": 12,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC4",
+      "scaffold": "NZ_JACEWJ010000019.1",
+      "start": 6091,
+      "end": 10036,
+      "number": 13,
+      "score": 9.1453,
+      "hits": [
+        [
+          86
+        ],
+        [
+          85
+        ],
+        [
+          84
+        ],
+        [
+          89
+        ],
+        [
+          88
+        ],
+        [],
+        [
+          87
+        ],
+        []
+      ]
+    },
+    {
+      "id": 13,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC5",
+      "scaffold": "NZ_JACEWK010000022.1",
+      "start": 7685,
+      "end": 8658,
+      "number": 14,
+      "score": 5.0421,
+      "hits": [
+        [
+          92
+        ],
+        [
+          91
+        ],
+        [
+          90
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 14,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC6",
+      "scaffold": "NZ_JACEWL010000022.1",
+      "start": 7685,
+      "end": 8658,
+      "number": 15,
+      "score": 5.0421,
+      "hits": [
+        [
+          95
+        ],
+        [
+          94
+        ],
+        [
+          93
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 15,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC7",
+      "scaffold": "NZ_JACEWM010000022.1",
+      "start": 7685,
+      "end": 12394,
+      "number": 16,
+      "score": 10.1708,
+      "hits": [
+        [
+          98
+        ],
+        [
+          97
+        ],
+        [
+          96
+        ],
+        [
+          101
+        ],
+        [
+          100
+        ],
+        [
+          102
+        ],
+        [
+          99
+        ],
+        []
+      ]
+    },
+    {
+      "id": 16,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC8",
+      "scaffold": "NZ_JACEWN010000021.1",
+      "start": 7685,
+      "end": 8658,
+      "number": 17,
+      "score": 5.0421,
+      "hits": [
+        [
+          105
+        ],
+        [
+          104
+        ],
+        [
+          103
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 17,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC9",
+      "scaffold": "NZ_JACEWO010000021.1",
+      "start": 7685,
+      "end": 12394,
+      "number": 18,
+      "score": 10.1708,
+      "hits": [
+        [
+          108
+        ],
+        [
+          107
+        ],
+        [
+          106
+        ],
+        [
+          111
+        ],
+        [
+          110
+        ],
+        [
+          112
+        ],
+        [
+          109
+        ],
+        []
+      ]
+    },
+    {
+      "id": 18,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC10",
+      "scaffold": "NZ_JACEWP010000022.1",
+      "start": 6353,
+      "end": 11062,
+      "number": 19,
+      "score": 10.1708,
+      "hits": [
+        [
+          115
+        ],
+        [
+          114
+        ],
+        [
+          113
+        ],
+        [
+          118
+        ],
+        [
+          117
+        ],
+        [
+          119
+        ],
+        [
+          116
+        ],
+        []
+      ]
+    },
+    {
+      "id": 19,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC11",
+      "scaffold": "NZ_JACEWQ010000022.1",
+      "start": 6353,
+      "end": 11062,
+      "number": 20,
+      "score": 10.1708,
+      "hits": [
+        [
+          122
+        ],
+        [
+          121
+        ],
+        [
+          120
+        ],
+        [
+          125
+        ],
+        [
+          124
+        ],
+        [
+          126
+        ],
+        [
+          123
+        ],
+        []
+      ]
+    },
+    {
+      "id": 20,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC12",
+      "scaffold": "NZ_JACEWR010000025.1",
+      "start": 1787,
+      "end": 6496,
+      "number": 21,
+      "score": 10.1708,
+      "hits": [
+        [
+          129
+        ],
+        [
+          128
+        ],
+        [
+          127
+        ],
+        [
+          132
+        ],
+        [
+          131
+        ],
+        [
+          133
+        ],
+        [
+          130
+        ],
+        []
+      ]
+    },
+    {
+      "id": 21,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC13",
+      "scaffold": "NZ_JACEWS010000019.1",
+      "start": 1786,
+      "end": 6495,
+      "number": 22,
+      "score": 10.1708,
+      "hits": [
+        [
+          136
+        ],
+        [
+          135
+        ],
+        [
+          134
+        ],
+        [
+          139
+        ],
+        [
+          138
+        ],
+        [
+          140
+        ],
+        [
+          137
+        ],
+        []
+      ]
+    },
+    {
+      "id": 22,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC15",
+      "scaffold": "NZ_JACEWU010000024.1",
+      "start": 1787,
+      "end": 6496,
+      "number": 23,
+      "score": 10.1708,
+      "hits": [
+        [
+          143
+        ],
+        [
+          142
+        ],
+        [
+          141
+        ],
+        [
+          146
+        ],
+        [
+          145
+        ],
+        [
+          147
+        ],
+        [
+          144
+        ],
+        []
+      ]
+    },
+    {
+      "id": 23,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC16",
+      "scaffold": "NZ_JACEWV010000021.1",
+      "start": 6353,
+      "end": 11062,
+      "number": 24,
+      "score": 10.1708,
+      "hits": [
+        [
+          150
+        ],
+        [
+          149
+        ],
+        [
+          148
+        ],
+        [
+          153
+        ],
+        [
+          152
+        ],
+        [
+          154
+        ],
+        [
+          151
+        ],
+        []
+      ]
+    },
+    {
+      "id": 24,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC18",
+      "scaffold": "NZ_JACEWX010000024.1",
+      "start": 1786,
+      "end": 6495,
+      "number": 25,
+      "score": 10.1708,
+      "hits": [
+        [
+          157
+        ],
+        [
+          156
+        ],
+        [
+          155
+        ],
+        [
+          160
+        ],
+        [
+          159
+        ],
+        [
+          161
+        ],
+        [
+          158
+        ],
+        []
+      ]
+    },
+    {
+      "id": 25,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC19",
+      "scaffold": "NZ_JACEWY010000025.1",
+      "start": 1787,
+      "end": 6496,
+      "number": 26,
+      "score": 10.1708,
+      "hits": [
+        [
+          164
+        ],
+        [
+          163
+        ],
+        [
+          162
+        ],
+        [
+          167
+        ],
+        [
+          166
+        ],
+        [
+          168
+        ],
+        [
+          165
+        ],
+        []
+      ]
+    },
+    {
+      "id": 26,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC20",
+      "scaffold": "NZ_JACEWZ010000025.1",
+      "start": 1787,
+      "end": 6496,
+      "number": 27,
+      "score": 10.1708,
+      "hits": [
+        [
+          171
+        ],
+        [
+          170
+        ],
+        [
+          169
+        ],
+        [
+          174
+        ],
+        [
+          173
+        ],
+        [
+          175
+        ],
+        [
+          172
+        ],
+        []
+      ]
+    },
+    {
+      "id": 27,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC21",
+      "scaffold": "NZ_JACEXA010000021.1",
+      "start": 6353,
+      "end": 11062,
+      "number": 28,
+      "score": 10.1708,
+      "hits": [
+        [
+          178
+        ],
+        [
+          177
+        ],
+        [
+          176
+        ],
+        [
+          181
+        ],
+        [
+          180
+        ],
+        [
+          182
+        ],
+        [
+          179
+        ],
+        []
+      ]
+    },
+    {
+      "id": 28,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC24",
+      "scaffold": "NZ_JACEXD010000022.1",
+      "start": 6353,
+      "end": 11062,
+      "number": 29,
+      "score": 10.1708,
+      "hits": [
+        [
+          185
+        ],
+        [
+          184
+        ],
+        [
+          183
+        ],
+        [
+          188
+        ],
+        [
+          187
+        ],
+        [
+          189
+        ],
+        [
+          186
+        ],
+        []
+      ]
+    },
+    {
+      "id": 29,
+      "organism_name": "Staphylococcus chromogenes",
+      "organism_strain": "SC25",
+      "scaffold": "NZ_JACEXE010000021.1",
+      "start": 6614,
+      "end": 11323,
+      "number": 30,
+      "score": 10.1708,
+      "hits": [
+        [
+          192
+        ],
+        [
+          191
+        ],
+        [
+          190
+        ],
+        [
+          195
+        ],
+        [
+          194
+        ],
+        [
+          196
+        ],
+        [
+          193
+        ],
+        []
+      ]
+    },
+    {
+      "id": 30,
+      "organism_name": "Staphylococcus equorum",
+      "organism_strain": "FME19",
+      "scaffold": "NZ_JABUYP010000004.1",
+      "start": 3211,
+      "end": 7276,
+      "number": 31,
+      "score": 6.0775,
+      "hits": [
+        [
+          197
+        ],
+        [],
+        [],
+        [
+          200
+        ],
+        [
+          199
+        ],
+        [
+          201
+        ],
+        [
+          198
+        ],
+        []
+      ]
+    },
+    {
+      "id": 31,
+      "organism_name": "Staphylococcus equorum",
+      "organism_strain": "White_SAM",
+      "scaffold": "NZ_LNMZ01000030.1",
+      "start": 2315,
+      "end": 6380,
+      "number": 32,
+      "score": 8.088,
+      "hits": [
+        [
+          202
+        ],
+        [],
+        [],
+        [
+          206
+        ],
+        [
+          205
+        ],
+        [
+          207
+        ],
+        [
+          204
+        ],
+        [
+          203
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "organism_name": "Staphylococcus equorum",
+      "organism_strain": "White_SAM",
+      "scaffold": "LNMZ01000030.1",
+      "start": 2315,
+      "end": 6380,
+      "number": 33,
+      "score": 8.08793,
+      "hits": [
+        [
+          208
+        ],
+        [],
+        [],
+        [
+          212
+        ],
+        [
+          211
+        ],
+        [
+          213
+        ],
+        [
+          210
+        ],
+        [
+          209
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "organism_name": "Staphylococcus equorum",
+      "organism_strain": "BC9",
+      "scaffold": "NZ_LNNB01000018.1",
+      "start": 2373,
+      "end": 6438,
+      "number": 34,
+      "score": 6.0775,
+      "hits": [
+        [
+          214
+        ],
+        [],
+        [],
+        [
+          217
+        ],
+        [
+          216
+        ],
+        [
+          218
+        ],
+        [
+          215
+        ],
+        []
+      ]
+    },
+    {
+      "id": 34,
+      "organism_name": "Staphylococcus equorum",
+      "organism_strain": "BC9",
+      "scaffold": "LNNB01000018.1",
+      "start": 2373,
+      "end": 6438,
+      "number": 35,
+      "score": 8.08793,
+      "hits": [
+        [
+          219
+        ],
+        [],
+        [],
+        [
+          223
+        ],
+        [
+          222
+        ],
+        [
+          224
+        ],
+        [
+          221
+        ],
+        [
+          220
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "organism_name": "Staphylococcus epidermidis",
+      "organism_strain": "14.1.R1",
+      "scaffold": "NZ_CP018844.1",
+      "start": 727,
+      "end": 642,
+      "number": 36,
+      "score": 12.10565,
+      "hits": [
+        [
+          229
+        ],
+        [
+          230
+        ],
+        [
+          231
+        ],
+        [
+          225
+        ],
+        [
+          226
+        ],
+        [
+          232
+        ],
+        [
+          227
+        ],
+        [
+          228
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "organism_name": "Staphylococcus epidermidis",
+      "organism_strain": "14.1.R1",
+      "scaffold": "CP018844.1",
+      "start": 727,
+      "end": 642,
+      "number": 37,
+      "score": 12.1043,
+      "hits": [
+        [
+          237
+        ],
+        [
+          238
+        ],
+        [
+          239
+        ],
+        [
+          233
+        ],
+        [
+          234
+        ],
+        [
+          240
+        ],
+        [
+          235
+        ],
+        [
+          236
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "organism_name": "Bacillus sp.",
+      "organism_strain": "ISL-78",
+      "scaffold": "NZ_JAGGQC010000023.1",
+      "start": 22489,
+      "end": 25757,
+      "number": 38,
+      "score": 7.07382,
+      "hits": [
+        [
+          241
+        ],
+        [],
+        [],
+        [
+          245
+        ],
+        [
+          244
+        ],
+        [],
+        [
+          243
+        ],
+        [
+          242
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "organism_name": "Bacillus sp.",
+      "organism_strain": "ISL-78",
+      "scaffold": "JAGGQC010000023.1",
+      "start": 22489,
+      "end": 25757,
+      "number": 39,
+      "score": 7.07382,
+      "hits": [
+        [
+          246
+        ],
+        [],
+        [],
+        [
+          250
+        ],
+        [
+          249
+        ],
+        [],
+        [
+          248
+        ],
+        [
+          247
+        ]
+      ]
+    },
+    {
+      "id": 39,
+      "organism_name": "Bacillus sp.",
+      "organism_strain": "ISL-101",
+      "scaffold": "NZ_JAGGQE010000009.1",
+      "start": 13359,
+      "end": 16627,
+      "number": 40,
+      "score": 7.07382,
+      "hits": [
+        [
+          255
+        ],
+        [],
+        [],
+        [
+          251
+        ],
+        [
+          252
+        ],
+        [],
+        [
+          253
+        ],
+        [
+          254
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "organism_name": "Bacillus sp.",
+      "organism_strain": "ISL-101",
+      "scaffold": "JAGGQE010000009.1",
+      "start": 13359,
+      "end": 16627,
+      "number": 41,
+      "score": 7.07382,
+      "hits": [
+        [
+          260
+        ],
+        [],
+        [],
+        [
+          256
+        ],
+        [
+          257
+        ],
+        [],
+        [
+          258
+        ],
+        [
+          259
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "organism_name": "Bacillus sp.",
+      "organism_strain": "ISL-34",
+      "scaffold": "JAGGQJ010000043.1",
+      "start": 17929,
+      "end": 21200,
+      "number": 42,
+      "score": 7.07391,
+      "hits": [
+        [
+          261
+        ],
+        [],
+        [],
+        [
+          265
+        ],
+        [
+          264
+        ],
+        [],
+        [
+          263
+        ],
+        [
+          262
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "organism_name": "Rummeliibacillus suwonensis",
+      "organism_strain": "3B-1",
+      "scaffold": "NZ_JAEMBY010000009.1",
+      "start": 11884,
+      "end": 15037,
+      "number": 43,
+      "score": 5.03746,
+      "hits": [
+        [
+          266
+        ],
+        [],
+        [],
+        [
+          269
+        ],
+        [],
+        [],
+        [
+          268
+        ],
+        [
+          267
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "organism_name": "Rummeliibacillus suwonensis",
+      "organism_strain": "3B-1",
+      "scaffold": "JAEMBY010000009.1",
+      "start": 11884,
+      "end": 15103,
+      "number": 44,
+      "score": 5.03896,
+      "hits": [
+        [
+          270
+        ],
+        [],
+        [],
+        [
+          273
+        ],
+        [],
+        [],
+        [
+          272
+        ],
+        [
+          271
+        ]
+      ]
+    },
+    {
+      "id": 44,
+      "organism_name": "Rummeliibacillus suwonensis",
+      "organism_strain": "G20",
+      "scaffold": "NZ_VCBL01000001.1",
+      "start": 395066,
+      "end": 398267,
+      "number": 45,
+      "score": 5.03792,
+      "hits": [
+        [
+          277
+        ],
+        [],
+        [],
+        [
+          274
+        ],
+        [],
+        [],
+        [
+          275
+        ],
+        [
+          276
+        ]
+      ]
+    },
+    {
+      "id": 45,
+      "organism_name": "Rummeliibacillus sp.",
+      "organism_strain": "SL167",
+      "scaffold": "NZ_VCBM01000003.1",
+      "start": 63863,
+      "end": 67064,
+      "number": 46,
+      "score": 5.03788,
+      "hits": [
+        [
+          278
+        ],
+        [],
+        [],
+        [
+          281
+        ],
+        [],
+        [],
+        [
+          280
+        ],
+        [
+          279
+        ]
+      ]
+    },
+    {
+      "id": 46,
+      "organism_name": "Lachnospiraceae bacterium",
+      "organism_strain": "",
+      "scaffold": "JAJQCL010000150.1",
+      "start": 720,
+      "end": 3822,
+      "number": 47,
+      "score": 3.0277,
+      "hits": [
+        [
+          283
+        ],
+        [],
+        [],
+        [
+          284
+        ],
+        [],
+        [],
+        [],
+        [
+          282
+        ]
+      ]
+    },
+    {
+      "id": 47,
+      "organism_name": "Lachnospiraceae bacterium",
+      "organism_strain": "",
+      "scaffold": "JAFQVJ010000070.1",
+      "start": 11465,
+      "end": 16124,
+      "number": 48,
+      "score": 3.02779,
+      "hits": [
+        [
+          286
+        ],
+        [],
+        [],
+        [
+          287
+        ],
+        [],
+        [],
+        [],
+        [
+          285
+        ]
+      ]
+    },
+    {
+      "id": 48,
+      "organism_name": "Enterococcus sp.",
+      "organism_strain": "DIV0869a",
+      "scaffold": "NZ_JAFLWD010000051.1",
+      "start": 6519,
+      "end": 9647,
+      "number": 49,
+      "score": 3.02954,
+      "hits": [
+        [
+          290
+        ],
+        [],
+        [],
+        [
+          288
+        ],
+        [],
+        [],
+        [
+          289
+        ],
+        []
+      ]
+    },
+    {
+      "id": 49,
+      "organism_name": "Enterococcus sp.",
+      "organism_strain": "DIV0869a",
+      "scaffold": "JAFLWD010000051.1",
+      "start": 6426,
+      "end": 9647,
+      "number": 50,
+      "score": 3.03054,
+      "hits": [
+        [
+          293
+        ],
+        [],
+        [],
+        [
+          291
+        ],
+        [],
+        [],
+        [
+          292
+        ],
+        []
+      ]
+    },
+    {
+      "id": 50,
+      "organism_name": "Enterococcus sp.",
+      "organism_strain": "DIV0212c",
+      "scaffold": "NZ_JAFREN010000001.1",
+      "start": 103378,
+      "end": 106506,
+      "number": 51,
+      "score": 3.02853,
+      "hits": [
+        [
+          294
+        ],
+        [],
+        [],
+        [
+          296
+        ],
+        [],
+        [],
+        [
+          295
+        ],
+        []
+      ]
+    },
+    {
+      "id": 51,
+      "organism_name": "Enterococcus sp.",
+      "organism_strain": "DIV0212c",
+      "scaffold": "JAFREN010000001.1",
+      "start": 103378,
+      "end": 106599,
+      "number": 52,
+      "score": 5.03492,
+      "hits": [
+        [
+          297
+        ],
+        [],
+        [],
+        [
+          300
+        ],
+        [],
+        [],
+        [
+          299
+        ],
+        [
+          298
+        ]
+      ]
+    },
+    {
+      "id": 52,
+      "organism_name": "Roseburia sp.",
+      "organism_strain": "831b",
+      "scaffold": "NZ_MJHW01000009.1",
+      "start": 22528,
+      "end": 29389,
+      "number": 53,
+      "score": 5.0345,
+      "hits": [
+        [
+          304
+        ],
+        [],
+        [],
+        [
+          301
+        ],
+        [],
+        [],
+        [
+          303
+        ],
+        [
+          302
+        ]
+      ]
+    },
+    {
+      "id": 53,
+      "organism_name": "Roseburia sp.",
+      "organism_strain": "831b",
+      "scaffold": "MJHW01000009.1",
+      "start": 22528,
+      "end": 29350,
+      "number": 54,
+      "score": 5.03478,
+      "hits": [
+        [
+          308
+        ],
+        [],
+        [],
+        [
+          305
+        ],
+        [],
+        [],
+        [
+          307
+        ],
+        [
+          306
+        ]
+      ]
+    },
+    {
+      "id": 54,
+      "organism_name": "Roseburia sp.",
+      "organism_strain": "",
+      "scaffold": "JALEJJ010000019.1",
+      "start": 20032,
+      "end": 24913,
+      "number": 55,
+      "score": 5.0345,
+      "hits": [
+        [
+          309
+        ],
+        [],
+        [],
+        [
+          312
+        ],
+        [],
+        [],
+        [
+          310
+        ],
+        [
+          311
+        ]
+      ]
+    },
+    {
+      "id": 55,
+      "organism_name": "Listeria fleischmannii",
+      "organism_strain": "FSL L7-1629",
+      "scaffold": "NZ_JAARQE010000002.1",
+      "start": 149199,
+      "end": 152529,
+      "number": 56,
+      "score": 3.02824,
+      "hits": [
+        [
+          313
+        ],
+        [],
+        [],
+        [
+          315
+        ],
+        [],
+        [],
+        [],
+        [
+          314
+        ]
+      ]
+    },
+    {
+      "id": 56,
+      "organism_name": "Gracilibacillus dipsosauri",
+      "organism_strain": "DD1",
+      "scaffold": "NZ_QGTD01000018.1",
+      "start": 220816,
+      "end": 224074,
+      "number": 58,
+      "score": 7.08233,
+      "hits": [
+        [
+          320
+        ],
+        [],
+        [],
+        [
+          316
+        ],
+        [
+          317
+        ],
+        [],
+        [
+          318
+        ],
+        [
+          319
+        ]
+      ]
+    },
+    {
+      "id": 57,
+      "organism_name": "Lentibacillus saliphilus",
+      "organism_strain": "YIM 93176",
+      "scaffold": "NZ_JABJXD010000005.1",
+      "start": 158567,
+      "end": 161811,
+      "number": 60,
+      "score": 5.07075,
+      "hits": [
+        [
+          324
+        ],
+        [],
+        [],
+        [
+          321
+        ],
+        [
+          322
+        ],
+        [],
+        [
+          323
+        ],
+        []
+      ]
+    },
+    {
+      "id": 58,
+      "organism_name": "Kandleria vitulina",
+      "organism_strain": "WCC7",
+      "scaffold": "NZ_FNGT01000032.1",
+      "start": 13440,
+      "end": 15596,
+      "number": 61,
+      "score": 3.02589,
+      "hits": [
+        [
+          327
+        ],
+        [],
+        [],
+        [
+          325
+        ],
+        [],
+        [],
+        [],
+        [
+          326
+        ]
+      ]
+    },
+    {
+      "id": 59,
+      "organism_name": "Kandleria vitulina",
+      "organism_strain": "KH4T7",
+      "scaffold": "NZ_FNZD01000026.1",
+      "start": 11992,
+      "end": 14148,
+      "number": 63,
+      "score": 3.02589,
+      "hits": [
+        [
+          330
+        ],
+        [],
+        [],
+        [
+          328
+        ],
+        [],
+        [],
+        [],
+        [
+          329
+        ]
+      ]
+    },
+    {
+      "id": 60,
+      "organism_name": "Kandleria vitulina",
+      "organism_strain": "MC3001",
+      "scaffold": "NZ_JHWI01000003.1",
+      "start": 80464,
+      "end": 82620,
+      "number": 65,
+      "score": 3.02589,
+      "hits": [
+        [
+          331
+        ],
+        [],
+        [],
+        [
+          333
+        ],
+        [],
+        [],
+        [],
+        [
+          332
+        ]
+      ]
+    },
+    {
+      "id": 61,
+      "organism_name": "Caldalkalibacillus mannanilyticus",
+      "organism_strain": "JCM 10596",
+      "scaffold": "NZ_BAMO01000016.1",
+      "start": 6404,
+      "end": 9968,
+      "number": 66,
+      "score": 8.06849,
+      "hits": [
+        [
+          334,
+          335
+        ],
+        [],
+        [],
+        [
+          339
+        ],
+        [
+          338
+        ],
+        [],
+        [
+          337
+        ],
+        [
+          336
+        ]
+      ]
+    },
+    {
+      "id": 62,
+      "organism_name": "Paenisporosarcina sp.",
+      "organism_strain": "HGH0030",
+      "scaffold": "NZ_KE150421.1",
+      "start": 1616755,
+      "end": 1619974,
+      "number": 67,
+      "score": 3.03329,
+      "hits": [
+        [
+          340
+        ],
+        [],
+        [],
+        [
+          342
+        ],
+        [],
+        [],
+        [
+          341
+        ],
+        []
+      ]
+    },
+    {
+      "id": 63,
+      "organism_name": "Paenisporosarcina sp.",
+      "organism_strain": "HGH0030",
+      "scaffold": "AGEQ01000007.1",
+      "start": 307921,
+      "end": 311140,
+      "number": 68,
+      "score": 5.03991,
+      "hits": [
+        [
+          343
+        ],
+        [],
+        [],
+        [
+          346
+        ],
+        [],
+        [],
+        [
+          345
+        ],
+        [
+          344
+        ]
+      ]
+    },
+    {
+      "id": 64,
+      "organism_name": "Bacillus licheniformis",
+      "organism_strain": "LMG 7632",
+      "scaffold": "NZ_NIJQ01000016.1",
+      "start": 20286,
+      "end": 22109,
+      "number": 70,
+      "score": 3.02359,
+      "hits": [
+        [
+          348
+        ],
+        [],
+        [
+          347
+        ],
+        [
+          349
+        ],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 65,
+      "organism_name": "Blautia producta",
+      "organism_strain": "PMF1",
+      "scaffold": "NZ_CP035945.1",
+      "start": 1620870,
+      "end": 1624190,
+      "number": 72,
+      "score": 3.0279,
+      "hits": [
+        [
+          350
+        ],
+        [],
+        [],
+        [
+          352
+        ],
+        [],
+        [],
+        [],
+        [
+          351
+        ]
+      ]
+    },
+    {
+      "id": 66,
+      "organism_name": "Paenarthrobacter sp.",
+      "organism_strain": "A20",
+      "scaffold": "NZ_JALJWH010000001.1",
+      "start": 2350537,
+      "end": 2353344,
+      "number": 74,
+      "score": 3.02539,
+      "hits": [
+        [
+          355
+        ],
+        [],
+        [],
+        [
+          354
+        ],
+        [],
+        [],
+        [
+          353
+        ],
+        []
+      ]
+    },
+    {
+      "id": 67,
+      "organism_name": "Paenarthrobacter sp.",
+      "organism_strain": "A20",
+      "scaffold": "JALJWH010000001.1",
+      "start": 2350537,
+      "end": 2353344,
+      "number": 75,
+      "score": 3.02119,
+      "hits": [
+        [
+          358
+        ],
+        [],
+        [],
+        [
+          357
+        ],
+        [],
+        [],
+        [
+          356
+        ],
+        []
+      ]
+    }
+  ],
+  "clustering": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9,
+      11,
+      15,
+      17
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      16
+    ],
+    [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    [
+      30
+    ],
+    [
+      31,
+      32,
+      34
+    ],
+    [
+      33
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      37
+    ],
+    [
+      38
+    ],
+    [
+      39
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      42,
+      43,
+      45,
+      51
+    ],
+    [
+      44
+    ],
+    [
+      46
+    ],
+    [
+      47,
+      58
+    ],
+    [
+      48,
+      66,
+      67
+    ],
+    [
+      49
+    ],
+    [
+      50
+    ],
+    [
+      52
+    ],
+    [
+      53
+    ],
+    [
+      54
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      56
+    ],
+    [
+      57
+    ],
+    [
+      59
+    ],
+    [
+      60
+    ],
+    [
+      61
+    ],
+    [
+      62
+    ],
+    [
+      63
+    ],
+    [
+      64
+    ]
+  ]
+}
