@@ -132,9 +132,6 @@ function makeClusterSVG(genes, arrowHeight=100, arrowHeadWidth=50) {
     return serialiser.serializeToString(svg);
 }
 
-const table = document.getElementById("grid-container");
-const header = document.getElementById("grid-header-row");
-
 function shortenOrganismName(name) {
     const parts = name.split(" ");
     if (parts.length < 2) {
@@ -163,7 +160,7 @@ function getContrastingTextColor(r, g, b) {
     return brightness > 128 ? "#000" : "#fff"; // Black text for bright backgrounds, white for dark
 }
 
-async function createClusterNew(store, clusterIds, clusteringIdx) {
+async function createClusterNew(store, clusterIds, table) {
     const data = await store.getData('clusters', clusterIds[0]);
 
     const template = document.getElementById("cluster-template").content.cloneNode(true);
@@ -324,19 +321,39 @@ function showTooltip(cell, hitData, clusterData) {
     tooltipRows.appendChild(fragment)
     
     const rect = cell.getBoundingClientRect();
-    tooltip.style.left = `${rect.left - (rect.width / 2) - window.scrollX + 10}px`;
+    // TODO this is broken when scrolled
+    // need to fix positioning so 1) always visible in viewport, 2) anchored better to cell
+    // also need it to disappear automatically after a time
+    tooltip.style.left = `${rect.left - window.scrollX + 10}px`;
     tooltip.style.top = `${rect.top - window.scrollY + 10}px`;
     tooltip.style.opacity = 1;
     tooltip.style.pointerEvents = 'auto';
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
-    const dataURL = 'testdata.json'; 
-    const response = await fetch(dataURL);
-    if (!response.ok) {
-        throw new Error(`Failed to fetch ${dataURL}`);
+
+async function loadData() {
+    // Check if data is embedded in the HTML
+    let newData;
+    const embeddedDataElement = document.getElementById('data-json');
+    if (embeddedDataElement) {
+        newData = JSON.parse(embeddedDataElement.textContent);
+    } else {
+        const dataURL = 'testdata_bacteria.json';
+        const response = await fetch(dataURL);
+        if (!response.ok) {
+            throw new Error(`Failed to fetch ${dataURL}`);
+        }
+        newData = await response.json();
     }
-    const newData = await response.json(); 
+    return newData;
+}
+
+
+document.addEventListener("DOMContentLoaded", async () => {
+    const table = document.getElementById("grid-container");
+    const header = document.getElementById("grid-header-row");
+
+    const newData = await loadData();
 
     const dataStore = new DataStore();
     await dataStore.initDB();
@@ -365,7 +382,7 @@ document.addEventListener("DOMContentLoaded", async () => {
    
     const fragment = new DocumentFragment();
     for (const [idx, cluster] of clustering.entries()) {
-        const element = await createClusterNew(dataStore, cluster, idx);
+        const element = await createClusterNew(dataStore, cluster, table);
         fragment.appendChild(element);
     }
     table.appendChild(fragment);
