@@ -162,7 +162,7 @@ async function createClusterNew(store, clusterIds, clusteringIdx) {
     const template = document.getElementById("cluster-template").content.cloneNode(true);
     template.querySelector(".organism-name").textContent = data.organism_name;
     template.querySelector(".organism-strain").textContent = data.organism_strain;
-    template.querySelector(".scaffold-name").textContent = data.scaffold;
+    template.querySelector(".scaffold-name").innerHTML = `<a href="https://www.ncbi.nlm.nih.gov/nuccore/${data.scaffold}?report=graph&from=${data.start}&to=${data.end}">${data.scaffold}</a>`
     template.querySelector(".scaffold-start").textContent = data.start;
     template.querySelector(".scaffold-end").textContent = data.end;
     template.querySelector(".cluster-length").textContent = data.end - data.start;
@@ -251,10 +251,10 @@ async function createMemberNew(store, clusterId) {
     const clusterRow = template.querySelector(".member-row")
     clusterRow.style.opacity = '0';
     clusterRow.style.transform = 'translateY(-20px)';
-
+    
     template.querySelector(".organism-name").textContent = data.organism_name;
     template.querySelector(".organism-strain").textContent = data.organism_strain;
-    template.querySelector(".scaffold-name").textContent = data.scaffold;
+    template.querySelector(".scaffold-name").innerHTML = `<a href="https://www.ncbi.nlm.nih.gov/nuccore/${data.scaffold}?report=graph&from=${data.start}&to=${data.end}">${data.scaffold}</a>`
     template.querySelector(".scaffold-start").textContent = data.start;
     template.querySelector(".scaffold-end").textContent = data.end;
     template.querySelector(".cluster-length").textContent = data.end - data.start;
