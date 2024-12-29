@@ -73,6 +73,13 @@ class DataStore {
             }
         }
     }
+    
+    async getHitCellData(clusterId, queryId) {
+        const clusterData = await this.getData('clusters', clusterId);
+        const hitIndices = clusterData.hits[queryId];
+        const hitData = await Promise.all(hitIndices.map(hitId => this.getData('hits', hitId)));
+        return hitData;
+    }
 }
 
 function makeGeneSVGPath(gene, svgHeight, minStart, arrowHeight, arrowHeadWidth) {
@@ -176,17 +183,21 @@ async function createClusterNew(store, clusterIds, clusteringIdx) {
         toggle.textContent = `▼ ${clusterIds.length}`;
     }
     const pattern = template.querySelector(".pattern");
-    await data.hits.forEach(async (hits) => {
+    await data.hits.forEach(async (hits, queryId) => {
         const cell = document.createElement("div");
+        cell.dataset.clusterId = clusterIds[0];
+        cell.dataset.queryIndex = queryId;
         cell.textContent = hits.length;
         cell.className = `pattern-square ${hits.length > 0 ? "blue" : "hidden"}`;
         const hitData = await Promise.all(hits.map(async (hit) => {
             return await store.getData('hits', hit);
         }))
-        const maxScore = Math.max(hitData.map(hit => hit.identity / 100));
-        const [r, g, b] = scoreToRGBA(maxScore);
-        cell.style.backgroundColor = `rgba(${r}, ${g}, ${b}, 1)`;
-        cell.style.color = getContrastingTextColor(r, g, b);
+        if (hitData.length > 0) {
+            const maxScore = Math.max(...hitData.map(hit => parseFloat(hit.identity) / 100));
+            const [r, g, b] = scoreToRGBA(maxScore);
+            cell.style.backgroundColor = `rgba(${r}, ${g}, ${b}, 1)`;
+            cell.style.color = getContrastingTextColor(r, g, b);
+        }
         pattern.appendChild(cell);
     })
     
@@ -239,8 +250,6 @@ async function createClusterNew(store, clusterIds, clusteringIdx) {
     });
     
     return template;
-
-    // table.appendChild(template);
 }
 
 async function createMemberNew(store, clusterId) {
@@ -261,27 +270,68 @@ async function createMemberNew(store, clusterId) {
     template.querySelector(".cluster-score").textContent = parseFloat(data.score).toFixed(2);
 
     const pattern = template.querySelector(".pattern");
-    await data.hits.forEach(async (hits) => {
+    await data.hits.forEach(async (hits, queryId) => {
         const cell = document.createElement("div");
+        cell.dataset.clusterId = clusterId;
+        cell.dataset.queryIndex = queryId;
         cell.textContent = hits.length;
         cell.className = `pattern-square ${hits.length > 0 ? "blue" : "hidden"}`;
         const hitData = await Promise.all(hits.map(async (hit) => {
             return await store.getData('hits', hit);
         }))
-        // cell.style.opacity = Math.max(hitData.map(hit => hit.identity / 100))
-        const maxScore = Math.max(hitData.map(hit => hit.identity / 100));
-        const [r, g, b] = scoreToRGBA(maxScore);
-        cell.style.backgroundColor = `rgba(${r}, ${g}, ${b}, 1)`;
-        cell.style.color = getContrastingTextColor(r, g, b);
+        if (hitData.length > 0) {
+            const maxScore = Math.max(hitData.map(hit => hit.identity / 100));
+            const [r, g, b] = scoreToRGBA(maxScore);
+            cell.style.backgroundColor = `rgba(${r}, ${g}, ${b}, 1)`;
+            cell.style.color = getContrastingTextColor(r, g, b);
+        }
         pattern.appendChild(cell);        
     })
     return template;
+}
 
-    // table.insertBefore(template, parentRow.nextElementSibling);
+function showTooltip(cell, hitData, clusterData) {
+    let tooltip = document.querySelector(".tooltip");
+    if (!tooltip) {
+        const template = document.getElementById("tooltip-template").content.cloneNode(true);
+        document.body.appendChild(template);
+        tooltip = document.querySelector(".tooltip");
+    }
+    
+    tooltip.querySelector('.tooltip-organism-name').textContent = clusterData.organism_name;
+    tooltip.querySelector('.tooltip-organism-strain').textContent = clusterData.organism_strain;
+    tooltip.querySelector(".tooltip-scaffold").innerHTML = `<a href="https://www.ncbi.nlm.nih.gov/nuccore/${clusterData.scaffold}?report=graph&from=${clusterData.start}&to=${clusterData.end}">${clusterData.scaffold}</a>`
+    
+    const tooltipRows = tooltip.querySelector(".tooltip-rows");
+    tooltipRows.replaceChildren();
+
+    const headerRow = document.getElementById("tooltip-row-template").content.cloneNode(true);
+    headerRow.querySelector('.tooltip-row').classList.add("tooltip-rows-header");
+    tooltipRows.appendChild(headerRow);
+    
+    const fragment = new DocumentFragment();
+    hitData.forEach(hit => {
+        row = document.getElementById("tooltip-row-template").content.cloneNode(true);
+        row.querySelector(".tooltip-name").textContent = hit.name;
+        row.querySelector(".tooltip-start").textContent = hit.start;
+        row.querySelector(".tooltip-end").textContent = hit.end;
+        row.querySelector(".tooltip-identity").textContent = parseFloat(hit.identity).toFixed(2);
+        row.querySelector(".tooltip-coverage").textContent = parseFloat(hit.coverage).toFixed(2);
+        row.querySelector(".tooltip-bitscore").textContent = hit.bitscore;
+        row.querySelector(".tooltip-evalue").textContent = parseFloat(hit.evalue).toFixed(2);
+        fragment.appendChild(row);
+    })
+    tooltipRows.appendChild(fragment)
+    
+    const rect = cell.getBoundingClientRect();
+    tooltip.style.left = `${rect.left - (rect.width / 2) - window.scrollX + 10}px`;
+    tooltip.style.top = `${rect.top - window.scrollY + 10}px`;
+    tooltip.style.opacity = 1;
+    tooltip.style.pointerEvents = 'auto';
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-    const dataURL = 'testdata_bacteria.json'; 
+    const dataURL = 'testdata.json'; 
     const response = await fetch(dataURL);
     if (!response.ok) {
         throw new Error(`Failed to fetch ${dataURL}`);
@@ -292,7 +342,19 @@ document.addEventListener("DOMContentLoaded", async () => {
     await dataStore.initDB();
     await dataStore.saveData('hits', newData.hits);
     await dataStore.saveData('clusters', newData.clusters);
-
+    
+    document.addEventListener('mouseover', async (event) => {
+        const cell = event.target.closest('.pattern-square');
+        if (!cell) return;
+        const clusterId = parseInt(cell.dataset.clusterId);
+        const queryId   = parseInt(cell.dataset.queryIndex);
+        const hitData = await dataStore.getHitCellData(clusterId, queryId);
+        const clusterData = await dataStore.getData('clusters', clusterId)
+        // TODO shouldn't requery the database here for cluster data since
+        //      we already do in getHitCellData
+        showTooltip(cell, hitData, clusterData);
+    });
+    
     // Sort by score
     const scores = await Promise.all(newData.clustering.map(async x => {
         const d = await dataStore.getData('clusters', x[0]);
