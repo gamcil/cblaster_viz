@@ -190,7 +190,7 @@ async function createClusterNew(store, clusterIds, clusteringIdx) {
         pattern.appendChild(cell);
     })
     
-    toggle.addEventListener("click", () => {
+    toggle.addEventListener("click", async () => {
         const isOpen = toggle.classList.contains("expanded"); 
         
         if (isOpen) {
@@ -202,25 +202,56 @@ async function createClusterNew(store, clusterIds, clusteringIdx) {
             }
         } else {
             if (clusterIds.length > 1) {
+                const fragment = new DocumentFragment();
                 for (let i = 1; i < clusterIds.length; i++) {
-                    // TODO wrap this in a document fragment so we can batch insert
-                    // should prevent weird streaming behaviour on safari
-                    createMemberNew(store, clusterIds[i], row);
+                    const member = await createMemberNew(store, clusterIds[i], row);
+                    fragment.appendChild(member);
                 }
+                table.insertBefore(fragment, row.nextElementSibling);;
+                
+                const newMemberRows = []
+                let nextSibling = row.nextElementSibling;
+                while (nextSibling && !nextSibling.classList.contains("cluster-row")) {
+                    if (nextSibling.classList.contains('member-row')) {
+                        newMemberRows.push(nextSibling);
+                    }
+                    nextSibling = nextSibling.nextElementSibling;
+                }
+
+                newMemberRows.forEach((member, index) => {
+                    member.animate(
+                        [
+                            { opacity: 0, transform: 'translateY(-20px)' },
+                            { opacity: 1, transform: 'translateY(0)' }
+                        ],
+                        {
+                            duration: 200,
+                            delay: index * 15,
+                            easing: 'ease-out',
+                            fill: 'forwards'
+                        }
+                    )
+                });
             }
             toggle.classList.add("expanded");
             toggle.textContent = `▲ ${clusterIds.length}`;
         }
     });
- 
+    
+    return template;
 
-    table.appendChild(template);
+    // table.appendChild(template);
 }
 
-async function createMemberNew(store, clusterId, parentRow) {
+async function createMemberNew(store, clusterId) {
     const data = await store.getData('clusters', clusterId);
     
     const template = document.getElementById("member-template").content.cloneNode(true);
+
+    const clusterRow = template.querySelector(".member-row")
+    clusterRow.style.opacity = '0';
+    clusterRow.style.transform = 'translateY(-20px)';
+
     template.querySelector(".organism-name").textContent = data.organism_name;
     template.querySelector(".organism-strain").textContent = data.organism_strain;
     template.querySelector(".scaffold-name").textContent = data.scaffold;
@@ -244,8 +275,9 @@ async function createMemberNew(store, clusterId, parentRow) {
         cell.style.color = getContrastingTextColor(r, g, b);
         pattern.appendChild(cell);        
     })
+    return template;
 
-    table.insertBefore(template, parentRow.nextElementSibling);
+    // table.insertBefore(template, parentRow.nextElementSibling);
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -256,7 +288,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
     const newData = await response.json(); 
 
-    
     const dataStore = new DataStore();
     await dataStore.initDB();
     await dataStore.saveData('hits', newData.hits);
@@ -270,9 +301,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     scores.sort((a, b) => b[0] - a[0])
     const clustering = scores.map(x => x[1]);
    
+    const fragment = new DocumentFragment();
     for (const [idx, cluster] of clustering.entries()) {
-        createClusterNew(dataStore, cluster, idx);
+        const element = await createClusterNew(dataStore, cluster, idx);
+        fragment.appendChild(element);
     }
+    table.appendChild(fragment);
    
     for (const query of newData.query.queries) {
         const span = document.createElement("span");

@@ -12,7 +12,7 @@ h1 {
 #grid-container {
     display: grid;
     width: 100%;
-    grid-template-columns: auto 2fr 1fr 1.5fr repeat(5, 1fr) minmax(200px, 5fr);
+    grid-template-columns: auto 2fr 1fr 1.5fr repeat(4, .8fr) minmax(200px, 5fr);
     grid-auto-rows: auto;
     gap: 5px;
     padding: 10px;
@@ -55,6 +55,9 @@ h1 {
 .cluster-row {
     background-color: Field;
     /* background-color: #f0f0f0; */
+}
+.member-row {
+    background-color: color-mix(in hsl, Field, darkgray 20%);
 }
 
 .cluster-row .organism-name, .member-row .organism-name {
